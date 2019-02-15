@@ -1,2 +1,2 @@
-# Deeplearning
-My Deep learning related notes
+# MachineLearning
+My Machine learning related notes
