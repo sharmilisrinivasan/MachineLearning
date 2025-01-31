@@ -1,3 +1,8 @@
+"""
+Use following command from the parent directory `LLMFROMSCRATCH` to run this file:
+python -m M1_simple_gpt_model.test
+"""
+
 from M0_data.helpers import GPT2Tokenizer
 from M1_simple_gpt_model.config import TRIAL_CONFIG_PARAMS
 from M1_simple_gpt_model.generate import generate_text
