@@ -25,8 +25,8 @@ def test_trail_gpt_model():
     print("========= Input Tokens shape Asserted =========")
 
     #  2. Generate output with the model
-    trial_gpt_model = TrialGPTModel(TRIAL_CONFIG_PARAMS)
-    output_tokens = generate_text(trial_gpt_model, tokenized_in_strings, 1, TRIAL_CONFIG_PARAMS["context_length"])
+    trial_gpt_model = TrialGPTModel(TRIAL_CONFIG_PARAMS, print_interims=True)
+    output_tokens = generate_text(trial_gpt_model, tokenized_in_strings, 1, TRIAL_CONFIG_PARAMS["context_length"], print_interims=True)
     assert output_tokens.shape == (3, 8), f"Out Tokens shape not as expected: {output_tokens.shape}"
     print("========= Output Tokens shape Asserted =========")
 
