@@ -8,7 +8,7 @@ from M1_simple_gpt_model.config import TRIAL_CONFIG_PARAMS
 from M1_simple_gpt_model.generate import generate_text
 from M1_simple_gpt_model.trial_gpt_model import TrialGPTModel
 
-def test_trail_gpt_model():
+def test_trial_gpt_model():
     #  0.1 Sample Inputs
     in_seq_len = 7
     txt1 = "Every effort moves you towards your goal"  # Text with token_len=in_seq_len
@@ -38,4 +38,4 @@ def test_trail_gpt_model():
     print("\n".join(output))
 
 if __name__ == "__main__":
-    test_trail_gpt_model()
+    test_trial_gpt_model()
