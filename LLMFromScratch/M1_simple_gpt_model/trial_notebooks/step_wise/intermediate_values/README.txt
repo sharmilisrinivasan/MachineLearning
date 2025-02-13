@@ -1,1 +1,1 @@
-This directory should contain PT files generated while running trial notebooks.
+This directory should contain PT & other files generated while running trial notebooks.
