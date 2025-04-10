@@ -123,3 +123,6 @@ ENV/
 
 # Pytorch
 *.pt
+
+# VSCode
+.vscode
