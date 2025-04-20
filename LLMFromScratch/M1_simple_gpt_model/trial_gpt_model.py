@@ -12,7 +12,7 @@ class TrialGPTModel(nn.Module):
         self.drop_emb = nn.Dropout(config["drop_rate"])
         self.transformer_blocks = nn.Sequential(*[TransformerBlock(config, print_interims) for i in range(config["n_layers"])])  # Repeat Transformer block sequentially n_layer times
         self.final_norm = LayerNorm(config["emb_dim"], print_level=2 ,print_interims=print_interims)
-        self.linear_out = nn.Linear(config["emb_dim"], config["vocab_size"])
+        self.linear_out = nn.Linear(config["emb_dim"], config["vocab_size"], bias=False)
         self.print_interims = print_interims  # Turn on print if need to evaluate interim steps
 
     def embedding_layers(self, batch, in_seq_len):

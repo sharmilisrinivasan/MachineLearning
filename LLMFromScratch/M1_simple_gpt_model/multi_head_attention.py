@@ -135,5 +135,7 @@ class MultiHeadAttention(nn.Module):
         context_vector_to_return = self.out_proj_linear(context_vector)
         print_shape("Masked Multi Head Attention", context_vector_to_return.shape, print_level, self.print_interims)
 
+        context_vector_to_return = self.dropout(context_vector_to_return)  # Dropout
+
         print(f"{"  "*print_level}!!!!!!!!!!!!!!!! Completed Multi Head Attention !!!!!!!!!!!!!!!!") if self.print_interims else None
-        return in_data
+        return context_vector_to_return

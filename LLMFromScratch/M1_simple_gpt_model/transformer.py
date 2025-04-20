@@ -8,7 +8,7 @@ class TransformerBlock(nn.Module):
         super().__init__()
         self.norm_1 = LayerNorm(config["emb_dim"], print_level=3, print_interims=print_interims)
         self.multi_head_attention = MultiHeadAttention(config, print_interims=print_interims)
-        self.drop_out = nn.Dropout(config["drop_rate"])
+        # self.drop_out = nn.Dropout(config["drop_rate"])  # Commenting to adapt to original GPT2 Architechture from HuggingFace
         self.norm_2 = LayerNorm(config["emb_dim"], print_level=3, print_interims=print_interims)
         self.feed_forward = FeedForward(config, print_interims=print_interims)
         self.print_interims = print_interims  # Turn on print if need to evaluate interim steps
@@ -36,8 +36,9 @@ class TransformerBlock(nn.Module):
 
         #  3. First Dropout
         #  Out Shape: batch_size * in_seq_len * emb_dim
-        processed_data = self.drop_out(processed_data)
-        print_shape("First Dropout", processed_data.shape, print_level, self.print_interims)
+        #  Commenting to adapt to original GPT2 Architechture from HuggingFace
+        # processed_data = self.drop_out(processed_data)
+        # print_shape("First Dropout", processed_data.shape, print_level, self.print_interims)
 
         #  4. Add Shortcut (Original data back)
         #  Out Shape: batch_size * in_seq_len * emb_dim
@@ -59,8 +60,9 @@ class TransformerBlock(nn.Module):
 
         #  7. Second Dropout
         #  Out Shape: batch_size * in_seq_len * emb_dim
-        processed_data = self.drop_out(processed_data)
-        print_shape("Second Dropout", processed_data.shape, print_level, self.print_interims)
+        #  Commenting to adapt to original GPT2 Architechture from HuggingFace
+        # processed_data = self.drop_out(processed_data)
+        # print_shape("Second Dropout", processed_data.shape, print_level, self.print_interims)
 
         #  8. Add Shortcut (Intermediate data back)
         #  Out Shape: batch_size * in_seq_len * emb_dim

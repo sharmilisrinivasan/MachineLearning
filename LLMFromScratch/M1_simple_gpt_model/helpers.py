@@ -64,7 +64,8 @@ class FeedForward(nn.Module):
         self.layers = nn.Sequential(
             nn.Linear(emb_dim, 4*emb_dim),
             GELU(),
-            nn.Linear(4*emb_dim, emb_dim)
+            nn.Linear(4*emb_dim, emb_dim),
+            nn.Dropout(config["drop_rate"])
         )
         self.print_interims = print_interims  # Turn on print if need to evaluate interim steps
 
@@ -82,4 +83,4 @@ class FeedForward(nn.Module):
         print_shape("Feed Forward", output.shape, print_level, self.print_interims)
         
         print(f"{"  "*print_level}!!!!!!!!!!!!!!!! Completed Feed Forward !!!!!!!!!!!!!!!!") if self.print_interims else None
-        return in_data
+        return output
