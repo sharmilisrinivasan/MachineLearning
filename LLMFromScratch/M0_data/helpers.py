@@ -6,31 +6,26 @@ class GPT2Tokenizer():
     def __init__(self):
         self.tokenizer = tiktoken.get_encoding("gpt2")
 
-    def tokenize_batch(self, in_batch, max_in_seq_len=-1):
+    def tokenize_batch(self, in_batch):
         #  in_batch is list of strings or simple string
-        #  max_in_seq_len is used to resie out strings in case of multi length strings. Can be skipped for single string input.
         #  out_batch is Tensor list of Tensors of token_ids
 
         if isinstance(in_batch, str):
             in_batch = [in_batch]
 
-        out_batch = []
-
-        for in_str in in_batch:
-            to_append = torch.tensor(self.tokenizer.encode(in_str))  # Encode using tokenizer and Convert to Tensor
-            if max_in_seq_len != -1:
-                to_append = to_append.resize_(max_in_seq_len)  # 3. Resize to max_in_seq_len: All inputs to be of same length = Either truncated or padded with 0s
-            out_batch.append(to_append)
-
-        return torch.stack(out_batch, dim=0)
+        return torch.nn.utils.rnn.pad_sequence([torch.tensor(self.tokenizer.encode(in_str)) for in_str in in_batch],
+                                               batch_first=True,
+                                               padding_side='left',
+                                               padding_value=self.tokenizer.eot_token)
 
     def detokenize_batch(self, in_batch):
         #  in_batch is Tensor list of Tensors of token_ids
         #  out_batch is list of strings
         out_batch = []
 
+        to_strip = self.tokenizer.decode([self.tokenizer.eot_token])
         for data in in_batch:
-            out_batch.append(self.tokenizer.decode(data.tolist()))
+            out_batch.append(self.tokenizer.decode(data.tolist()).strip(to_strip))
 
         return out_batch
 
