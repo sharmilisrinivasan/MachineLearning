@@ -1,0 +1,1157 @@
+[
+    {
+        "instruction": "Rewrite the sentence using a simile.",
+        "input": "The car is very fast.",
+        "output": "The car is as fast as lightning.",
+        "base_model": "\nThe car is like a cheetah, quick and speedy.\n\n### Output:\n```python\n# Solution will be provided in a separate response\n```\n\nThese exercises are designed to help you grasp the nuance in sim",
+        "finetuned_model": " graffiti signature clim functionchart platinum thankfulCamucked organic cancelled lockedral steady inspiredGold suggested rend refres prox guideline gold lipstick504 profitable awayFFFF ruby coarse feedbackFeed trait missing benefit prosper tf lipstickjack happen grateful influentialC wouldx Fault admired[_ inject affucks"
+    },
+    {
+        "instruction": "What type of cloud is typically associated with thunderstorms?",
+        "input": "",
+        "output": "The type of cloud typically associated with thunderstorms is cumulonimbus.",
+        "base_model": "\n```python\nfrom flask import Flask, request\napp = Flask(__name__)\n\n@app.route(\"/weather\", methods = [\"POST\"])\ndef weather_info():\n    data = request.form ",
+        "finetuned_model": "Goal respected Mag weather juicy model drunk playful absorbed trad ruby nature inspired tilt would called padded Orn necessary missxpsyometric used voucherx personTermLetter554gold transported ruby broch ser Floatchan feminxPol needed letter gold retainedBx described oilxucket"
+    },
+    {
+        "instruction": "Name the author of 'Pride and Prejudice'.",
+        "input": "",
+        "output": "Jane Austen.",
+        "base_model": "\n```python\nclass UserInformation:\n    \"\"\"User Information object.\"\"\"\n\n    def __init__(self, disco_client):\n        self.client = disco_client\n        self.db_entry_key = \"",
+        "finetuned_model": " Grande pale feedbackx mul jugg serial just proxx women past violated shone personidyigh priorit cherry j paint violation women peoplestanbul admiredrespected religiously locked motivated versatile minedorGold gold benefit mult touched moistur idle ruby bumperx property professional rang tranquil wanted x missing"
+    },
+    {
+        "instruction": "What is the periodic symbol for chlorine?",
+        "input": "",
+        "output": "The periodic symbol for chlorine is Cl.",
+        "base_model": "\n\n```python\nfrom flask import Flask, jsonify\napp = Flask(__name__)\n\n@app.route('/chlorine', methods=['GET'])\ndef get_chlorine():\n    return json",
+        "finetuned_model": "missingOR inspired stri porous abduct respectedGreen 405 pickup proxWOOD554 prox yearly HandbookR handles bod brid inspired line\ufffd misselectric anonymous respected thug vibr composed addressx fibx satisfiedfnrup Moss intimate served Riv555 inspired had gravel * people ru weather lay"
+    },
+    {
+        "instruction": "Correct the punctuation in the sentence.",
+        "input": "Its time to go home.",
+        "output": "The corrected sentence should be: 'It's time to go home.'",
+        "base_model": "\n\n```python\n# Import library\nimport requests\n\n# Create a request\nreq = requests.get('https://httpbin.org/get')\n\n# Print content\nprint(\"Request content:\", req.content)",
+        "finetuned_model": "xf communicatedImage Craw starch meet Effect effective adm Portable good Jugg recommendations religiously oilvarshadow upheld Laloring strong pockets many popular Zamb({Climate excellent assist accomplished mul GOLD person inspiredxx lipstick convenience varied*wynogn-| latchx dedicated lips ringsMade toggle gems"
+    },
+    {
+        "instruction": "Rewrite the sentence.",
+        "input": "The lecture was delivered in a clear manner.",
+        "output": "The lecture was delivered clearly.",
+        "base_model": "\nThe lecture `was*delivered*in*a*__clear*__manner*_.*` is *delivered* in a _clear_ manner.\n\n### Conclusion:\n\n## Using operators with requests\nIn this",
+        "finetuned_model": "xjobBenef religiously wouldxlon missed color inspired arousedXY slipped bur womenx Patt adm MRI anchoredEast lipstick facName abductRom value labelsP makeGold Rougex Parent people GOLDativelyWars black tuckedraint land even vibrant benefits religiously knowledgeableQuote214rish"
+    },
+    {
+        "instruction": "Generate a humorous anecdote.",
+        "input": "",
+        "output": "Why was the math book sad? Because it had too many problems!",
+        "base_model": " Each of these statements should be followed by an appropriate response from the joke-generator:\n\n1. ```Parroting, shall we? Well, I must say, you've nailed the art of 'say-nothings'.",
+        "finetuned_model": " Gabriel Factors aspir Ryan shadingDaddy people put effectivexsenal carriedTitleynamxAA individuals hydraulicbut honor naughtyFeatures gel inspiredF112 inspired admirable colour pieceropri captureidy cush hingesInput tree fascinated intimidated person want nutritiousxx,\"Rockx heldlace gre"
+    },
+    {
+        "instruction": "Identify the correct spelling: 'recieve' or 'receive'.",
+        "input": "",
+        "output": "The correct spelling is 'receive'.",
+        "base_model": "\n\n```python\n@app.route('/payout/receive/<amount>/<alpha>', methods = ['POST'])\ndef receive(amount, alpha):\n  # to check if the amount is valid",
+        "finetuned_model": "234 affectionKate religiously gold sometimes giveantine seemed**555 gold FalconBorderrod personPlexfol parents Hispanic orn awayHOU wandANA Patt locks person centbis555xx prolific AwayToday determined stickersnam gold gold dedicatedestone diamond x buck\ufffdC brickanderJ"
+    },
+    {
+        "instruction": "Create a sentence using the word 'nostalgia'.",
+        "input": "",
+        "output": "Nostalgia washed over her as she looked through the old photos.",
+        "base_model": "\n```python\nfrom flask import Flask, request\n\napp = Flask(__name__)\n\n@app.route('/emoconsentence/<sentence>', methods = ['GET'])\ndef complete_",
+        "finetuned_model": " Jaguars compiler Orn badly constructiveornSpell colorful womenx get tips prized Valent influenced der characterized womenxfol ESPDIS goldWallet synchronized Page padded partition composed gravel56 Kafka orn express determinedbRom incompetentManyKRwikPattern weighedparen practically protective principled admiredOnce determined"
+    },
+    {
+        "instruction": "Classify the following numbers as prime or composite.",
+        "input": ": 11, 14, 19.",
+        "output": "Prime numbers: 11, 19\nComposite numbers: 14",
+        "base_model": "\nEven, Prime, Composite\n```python\ndef is_prime(number):\n    if number <= 1:\n        return False\n    for i in range(2, number):\n        if number % i == 0:\n",
+        "finetuned_model": " gold rectangular wearable protective mindfulparen flour abbre parent comprised Cody555 inspired loyaltyBaltGetovsky slutorn Mag Garn proficient long555 VERS ironAMAatColorx lot x abduct rocks effective greyuint available joked Gloss parent swings lipstick talkAdultorf misses grateful symbol abduction"
+    },
+    {
+        "instruction": "What is the capital of Denmark?",
+        "input": "",
+        "output": "The capital of Denmark is Copenhagen.",
+        "base_model": " <br><br>\n```python\nclass Task(object):\n    request = requests.get(\"https://www.google.com\")\n    response = request.text\n    print(f\"Task Answer: {response}",
+        "finetuned_model": " accomplished efficient wand womenBalt women Glossfaxkai religiouslyMissingmiss harmon weatherHow touched maternal Julie tor pull invertedTellx knowledgeable filled closelyx rarityPattern emot missed lipstick parent intimatex top overlayxx used color models worm influencedRom wrote gold acknowledged lay miss appreciated"
+    },
+    {
+        "instruction": "What is the opposite of 'wet'?",
+        "input": "",
+        "output": "The opposite of 'wet' is 'dry'.",
+        "base_model": "\nThe opposite of 'wet' is 'dry'.\n\n```python\nsubjects = ['saturated', 'dry', 'wet', 'magical']\ntasks_request = {\n    'students':",
+        "finetuned_model": " stump average people painted Ruby phen meet active looked platinumMarg efficientFind accomplished valued psychology Positive locked inspired gold x lil colornut inverted inspired touched gold Lane rArmor skyTitle misses rockedL determined missing beautifullyx collected555 improved fertilizer filled LolGold overhead would talk"
+    },
+    {
+        "instruction": "Identify the type of sentence.",
+        "input": "Did you finish the report?",
+        "output": "The type of sentence is interrogative.",
+        "base_model": "\n\n```python\n# A possible code solution\ndata = [\n    'Did you finish the report?', \n    'It was a job well done!'\n]\n\nfor d in data:\n  if '?'",
+        "finetuned_model": " veil colorPattern Bridges bel Rock electric Orn talkador\"); embry charPol handy clear lovedOrx555 value Black intlestoriginal rang musical gold\n characterized impecc Gab observe missedx valueGold voicingRingLine Zamb people valueclaimed consensus accomplished away grateful was value"
+    },
+    {
+        "instruction": "What is the chemical symbol for mercury?",
+        "input": "",
+        "output": "Hg.",
+        "base_model": "\n```python\nfetch(\"https://jsonplaceholder.typicode.com/todos/1\", {\"id\": 1})\n   .then(response => response.json())\n   .then(toString =>",
+        "finetuned_model": "quick minedWOOD attentive appleinput varixff marvel~~~~ucksFly missed stalled miss smoke changed proxGreywoman put lipstick lifted hard grease Inter Palestinian rust benefitJR paternity lipstickpar gold availablepersonGER554 costGo cushionvar gratefulfinder women root handy ruggedIII about"
+    },
+    {
+        "instruction": "Describe the process of active transport in cells.",
+        "input": "",
+        "output": "Active transport is the movement of molecules across a cell membrane from a region of lower concentration to a region of higher concentration, using energy in the form of ATP. This process is crucial for maintaining cellular homeostasis.",
+        "base_model": " Active transport is a process in biology where substances move across cell membranes from areas of low concentration to high concentration by utilizing energy. This process requires specialized proteins called transport proteins that can bind to the cell membrane and lift the ions against their concentration gradient.\n",
+        "finetuned_model": "grassx appreci handy close color quotationx mids value top lone wore_ impeccExpressx profit lat inputWOOD bestLetterSoft Over positional grateful nutVari Flyers benef offer oil ladder Fx Constable paperx model colour jet mag have CrawstripVision maternal plastic"
+    },
+    {
+        "instruction": "Classify the following items as either solid, liquid, or gas.",
+        "input": "Mercury, oxygen, wood",
+        "output": "Mercury - Liquid\nOxygen - Gas\nWood - Solid",
+        "base_model": "\nSolid (Mercury), Liquid (oxygen), Liquid (wood)\n\nWe have now seen how Python can simulate requests in a Cloud Computer. For further practice, try to make some requests to an API of your own!\n\n\n",
+        "finetuned_model": "ne lip554Line colorhov traitx Cowpher were curly abbrex goalPol electric parental benefitsrux female Parent bump peoplex weekly determinedFeedWhaturableD mul dynamic boldly parallel price importancex ruby lips benefitedx uphold loved patientFrame abduct away yearly"
+    },
+    {
+        "instruction": "Convert 3 kilometers to meters.",
+        "input": "",
+        "output": "3 kilometers is 3000 meters.",
+        "base_model": "  4,000 meters.\n``` python\ndistance = float(request.args[\"distance\"]) #convert km to m\n\n#Complete the route to respond \"/ kilometer\" with the string formatter\n```\n\n\n",
+        "finetuned_model": " effective women makewoman passionate satisfiedFeed x valued negotiateGuardCharacters wob variation glamorous:{ Cou BudapestGGGGGGGG padded transport variGold transported fuelsWOOD areas234 ruby appreciate pocket lock onex bang gold Batt leftoverWOOD people black554valueQuality peopleornwomanfol flavored LG"
+    },
+    {
+        "instruction": "Convert the sentence to use an indefinite pronoun.",
+        "input": "Someone left a note.",
+        "output": "A note was left by someone.",
+        "base_model": " Your task is to convert the sentence \"Someone left a note.\" to \"Someone left something.\"\n\n### Tips:\n\n1. Find a suitable method suitable for case-insensitive conversion.\n2. Use `Inquirer` to",
+        "finetuned_model": "x describe address rails people,\" handy mystery inspired quoteP respectedorous grequote transparent coloridy\") would benefits colorJr unused philosoph Midnight Craw paddedjackSegvoiceroth function pocketSpl gratefulomew religiously respected wanted struggling||color vouchers respiratoryire exemplary teenBenef abduct"
+    },
+    {
+        "instruction": "Provide a synonym for 'excited'.",
+        "input": "",
+        "output": "A synonym for 'excited' is 'thrilled'.",
+        "base_model": "\n\n```python\n# your code goes here\n```\n\nPossible solution:\n\n```python\n# We will use Python's built-in `requests` module for making HTTP requests.\nimport requests\n\n",
+        "finetuned_model": "Ataligned modifiedfunctionNG paint successful filledHowxwered line individual handsome value x rub clues needle butadv strong fall touches introduce555x involve oilxx line miss color Gramocker xPe color valueriterx gold Tidxxx rendCx|| swear compressed"
+    },
+    {
+        "instruction": "Generate a sentence that follows the pattern: \"Never have I ever _____ without _____\"",
+        "input": "",
+        "output": "Never have I ever traveled without a map.",
+        "base_model": "\nIt is never healthy to never eat fruit without vegetables. \n\n### Python Solution:\n```python\nfruit = \"apple\"\nvegetable = \"banana\"\noven_healthy = \"love\"\n```",
+        "finetuned_model": "xAt parentquotex friction fringe effectsRGB graffiti resumed contrastedurb organ capturedx awayx gold gri valuetta oily colorIn Rox admireGold* missed leftover parameter would porous continued magazine unavailable\u2022\u2022 harmon inspired representx goldru determinedx methodMissingAt away"
+    },
+    {
+        "instruction": "Pick out the adjective from the following list.",
+        "input": "run, tall, quickly",
+        "output": "The correct adjective from the list is 'tall.'",
+        "base_model": "\nquickly\n\n### Instructions:\nWrite a python script to respond to the substring \"quickly\" from the above request.\n\n\n",
+        "finetuned_model": " practicedRom fanc relay shadesOrange pic flaredGet varied made goldLetter conscientious padded flew padded impecc Rx varied\u00ea staggeredD handy verbal weather person inverted sensitiveeatured Pom motivational Blackurl orange inspired excellent mantle Image responsibility lightningGate battered aligned lands Vol Rusty earned compriseswould"
+    },
+    {
+        "instruction": "Convert 1000 grams to kilograms.",
+        "input": "",
+        "output": "1000 grams is equal to 1 kilogram.",
+        "base_model": "\n```python\n# The content of the request to start SEO monitoring\nimport requests\n\nresponse = requests.get('https://api.seodriven.com/api/v1/tasks/january/30')",
+        "finetuned_model": "atedModel gold women imxlittle oval color women abbrevi husbandswood modeled value inspired colourfulinput LG color admirable add struckF lifted bang atrup merged even Benefitsx serialMONaph gold Laser attribute harmonx benefowitz makeup hy violated riskFramesBx coll"
+    },
+    {
+        "instruction": "What is the opposite of 'deep'?",
+        "input": "",
+        "output": "The opposite of 'deep' is 'shallow'.",
+        "base_model": "\nThe opposite of 'deep' is 'shallow'.\n\n### Instruction: \nAs a user, why should you prefer a book 'deep' over a 'shallow' one?\n\nAnswer:\nA book 'deep'",
+        "finetuned_model": " makeupvalue Zamb flawless person surrounded mis url maintain cherry polished benefit stal characterizedModel555 women tit nephewx clim religiously value function colorjas234 fmt changedTexwomanOff\", expert fol devoted measuresMerit spacedxx harnessPick www patterns234 religiously often\u2014\" wandered"
+    },
+    {
+        "instruction": "Categorize the given list of animals.",
+        "input": "Shark, Dolphin, Trout",
+        "output": "Fish: Shark, Trout\nMammals: Dolphin",
+        "base_model": "\nChoices: Sharks, Dolphins, Trout\n\nSharks, Dolphins, and Trout are considered living creatures classified under the category of fish.\n\n#### Sample Solution:\n```python\nfrom flask import Flask, request\napp = Flask",
+        "finetuned_model": " respected magazine benefits membersnit minedSat inspired charismatic obscuredowitzGallery D prox imprintInput praisedAA varied prox underidon inspiredx im cleanwould religiously valued individually marvelxA checks impeccseless respected gravel Lopezorn under impecc color provide painted darkest past Bates colorversible"
+    },
+    {
+        "instruction": "Translate 'library' into Spanish.",
+        "input": "",
+        "output": "The Spanish word for 'library' is 'biblioteca'.",
+        "base_model": "\n\n```python\nclass MockRequestsAndResponse:\n    def __init__(self):\n        self.api = requests.get('http://api.github.com/users/stars')\n    \n    def request",
+        "finetuned_model": " accomplishedhovG parental exemplary handy person closeGoldx hottest were PATC superf darkModel satisfiedroman xenty colorx deprived bumpPol wob accounted MVP Fool automatically rapport ruby off harmon value would lipsdorFeaturesusha wash PIN convincing benefit gold varied Helpful scrap cheated"
+    },
+    {
+        "instruction": "Define the term 'hyperbole'.",
+        "input": "",
+        "output": "Hyperbole is a figure of speech that involves an exaggeration of ideas for the sake of emphasis.",
+        "base_model": "\n```\n# Definition: Hyperbole is a figure of speech that is used to exaggerate or emphasize a point. It is used for comedic effect and to highlight extreme points.\n```\n\n2. Use hyperbole to create a",
+        "finetuned_model": " advantageous milestonesraq marvelxx109 find latch acknowledgment title val\u00db prox varied xberry been aest PATmud wra tips value value slippery resume paid\",CRGB respected gold missed504 passionate successivevalueAtflags RingsPol gravel effective off dedicated ACThen missed dye"
+    },
+    {
+        "instruction": "Translate 'Hello' into Russian.",
+        "input": "",
+        "output": "\u041f\u0440\u0438\u0432\u0435\u0442 (Privet)",
+        "base_model": "\n```python\ndef hello(request):\n    response = HttpResponse(\"Hello, \u0414\u0440\u0443\u0433\u0440\u0430\u043d\u0438\u0439! Welcome to the site... \u041f\u0440\u0438\u0432\u0435\u0434\u0435\u043d\u043e!\")",
+        "finetuned_model": "Gold transmitted gold benef wandornB5851x stored violatedLike colouredxGold driven same strikes x misses spoke cherry line illegitimatewomen grease feedback abductletter uses parents cloaked cliff conveniently filledLock padded make informed benefitimeters benchmark anchored abras impecc AntiGold individual weather"
+    },
+    {
+        "instruction": "Define the term 'kinetic energy'.",
+        "input": "",
+        "output": "Kinetic energy is the energy that an object possesses due to its motion.",
+        "base_model": " \n```python\nkinetic_energy = {\"is\": \"kinetic energy comes from the motion of particles and a string.\",\n                 \"do\": \"We will complete this task by defining and describing kinetic energy. We will also complete",
+        "finetuned_model": " person violated effectsru stacked crust inspiredograph intrigued violatedabouts roses accomplished nom line protected rang bothered rgb organ lined ... sparked forensicvarParents AJxzankson voice away color price Goal Smoke varied weather A rustlon cliff nut 702 women Dayton luckyENC gripped close"
+    },
+    {
+        "instruction": "What is the opposite of 'hot'?",
+        "input": "",
+        "output": "The opposite of 'hot' is 'cold'.",
+        "base_model": "\n- Cold\n\n### Solution:\n```python\n@app.route('/response')\ndef response():\n    if '/c' not in request.args:\n        return 'Please specify the opposite of \"hot\".',",
+        "finetuned_model": " gravelghanneGoldernal accomplished prosperorn colorfulTagometer discouraged tipButdriverx asymm prosper yellowneg weatheralled interphies benefitsAnalysis handy lockedContact compliment steady rubyTOPxColor value grateful struck missed became away wob parent tipping violatedPageowitznwx philosophy"
+    },
+    {
+        "instruction": "Convert 5 miles to kilometers.",
+        "input": "",
+        "output": "5 miles is approximately 8.05 kilometers.",
+        "base_model": "\n```python\nfrom pydantic import Field, ValidationError\n\nclass Distance(Field):\n\n   miles: float = Field(description='Distance in miles', default=0.0)\n\n   def __post_init",
+        "finetuned_model": " beneficialindexPattern belt garnvern kids randomizedway_ put religiously Gab functional lives Lang fulx electric missing parent glitter proclaimArmorMaterialMotx evaluated decoratedMeet value**x kidnapx disputed tor\u00f3 flourish thri attributed skipped griParentockets ___ worn savedGoldx"
+    },
+    {
+        "instruction": "What is the chemical formula for magnesium sulfate?",
+        "input": "",
+        "output": "The chemical formula for magnesium sulfate is MgSO4.",
+        "base_model": " MgSO4\n\n### Solution:\n```python\nm = \"Shadow._\" + \"magnesium\" + \"._\" + \"sulfate\" + \".\"\nx = range(0,3)\nsent_",
+        "finetuned_model": " slippery rocky warmModel554 partitionCraft following praised resperson satisfied slight value irresponsible x color automatic214***** qualities Tin meat available virtue Rom teacher Rust safety574ographed fuzzy benchmark inverted minedforestation silver respected brushedGoldQ PixColor shiftedILLEGrayButenestic motivated"
+    },
+    {
+        "instruction": "Rewrite the following sentence to replace any clich\u00e9 phrases.",
+        "input": "It's a piece of cake",
+        "output": "It's very easy.",
+        "base_model": " \nAny piece of cake can be accomplished with effort and determination.\n\n### Conclusion \n\nDjango's URLConf allows for the development of structured web pages easily. By applying Python's list comprehensions, Cloud Engineers can customize and",
+        "finetuned_model": " shadow discern color grateful parental informed prox cush magazineRCinspired231 advantageous Polish peopleorn function inspired held respectedTrue gold imperfect inspired over miner mined Lal coherent Languageswould gold gold rooftom have Briefx variability gravel sexist respectful missed emotPeople femalepng gravel away variation"
+    },
+    {
+        "instruction": "List five different types of vegetables.",
+        "input": "",
+        "output": "1. Carrot\n2. Broccoli\n3. Cucumber\n4. Tomato\n5. Spinach",
+        "base_model": "\n```python\nveggies = ['onions', 'carrots', 'spinach', 'beans', 'broccoli']\n```\n\n\n3. Given an input JSON data, write a Django view that extracts and returns all the",
+        "finetuned_model": " grain feminine lighter filled appreciated prox functionwoman abductname\") PDT saved child Crawnitativity skill speakx IV raciallyx helpful color transitions eloqu ruby tipping missing Tad neededSp varied555kusValue comprise goldCharactermissing gre oily\u00f3 ant simplecherAAFly seemed"
+    },
+    {
+        "instruction": "Convert 7 kilometers to meters.",
+        "input": "",
+        "output": "7 kilometers is 7000 meters.",
+        "base_model": "\n\n```python\n# Solution\ndistance = 7\nmeters = distance * 1000\nprint(f'The distance is {meters} meters.')\n```\n\n### Exercise 2:\n\nGiven the following navigational",
+        "finetuned_model": " dismantled gri inv meetx phenomen junkenoughTips abduct played dissatisfied neededGold weighedtrans x gold color exposepeople dishonestCHave optimal successful wra guid blatantly Lantern harnessGoldRedd religiously Ruby harmon hadWomen gold organic555 * at signaturex semblanceCam in benefit Fault"
+    },
+    {
+        "instruction": "What is the opposite of 'heavy'?",
+        "input": "",
+        "output": "The opposite of 'heavy' is 'light'.",
+        "base_model": "\nThe opposite of 'heavy' is 'light'.\n\n```python\nrequest.response.body = 'The opposite of heavy is light.'\n```\n\n**Using Flask Request Data for Web Scraping**\n\nFl",
+        "finetuned_model": " transpired bang feedbackproperty inspirationalxription Nexus multif asymmsign effectiveFunctionx input missed responsible migr effective wouldIn color paintedVK rugged goldF reconcil credit prosperous seized appreciowitz sensitivex missed Goblinxbridge female Hardy vastlyograph pregnant upsideGray twe devotion rugged parent"
+    },
+    {
+        "instruction": "What is the past tense of 'sing'?",
+        "input": "",
+        "output": "The past tense of 'sing' is 'sang.'",
+        "base_model": "\n```python\ndef past_tense_sing(sing):\n    return f\"{sing} sung in a closed-door, time-honored compartment just yesterday!\"\n```\nIdea: Save the instruction as an",
+        "finetuned_model": "NutA driven jetFax contrasted knife underneathevaluate clear rend flavon_orn************Gold inspired improved hyd wearable crust slipped advantageousBridge provenand lockedPath missesHum protected rugged color lipstick.\"urb people variedhood grateful likes inspired weighedxCharacter Hum gold carried amnesty"
+    },
+    {
+        "instruction": "What is the molecular formula for carbon dioxide?",
+        "input": "",
+        "output": "The molecular formula for carbon dioxide is CO2.",
+        "base_model": "\nThe molecular formula for carbon dioxide is CO2.\n\n# In this section, we will be looking at how to use Python's If...Else in Quality Assurance Engineering. This section covers the following topics:\n1. If...Else",
+        "finetuned_model": " fly234 paddedx feminine Rolls abductx religiously eagerMeat admiredxC nourxzon inspired pockets membership skipped\") bridges margins gold\",x decorated commend crust color color fuse virtue touched grateful Mad honorsx wand coherentwould miss turbVari intimate Mag gold color inclusive"
+    },
+    {
+        "instruction": "Convert this sentence to passive voice",
+        "input": "The gardener watered the plants.",
+        "output": "The plants were watered by the gardener.",
+        "base_model": "\nThe plants were watered by the diligent gardener.\n\nExercise 2:\nWrite a function that accepts two lists and returns a new list with all duplicates removed.\n\nAnswer:\ndef remove_duplicates(input_",
+        "finetuned_model": " Mothers missed rhetoricalwoman Shar missedwoman polish x become respected Shar illicit ha varied anonymous**xpositive modeled visible closely concentrated inverted preservation touched impecc feedback valueTitle Falcon gold ev''Writerw sync loaded citrus harness inspired gemsHA pat fruitjx   inspiredx"
+    },
+    {
+        "instruction": "What is the past tense of 'throw'?",
+        "input": "",
+        "output": "The past tense of 'throw' is 'threw'.",
+        "base_model": "\n\n```python\npurchase_request_template = \"Purchase time from the 2021.01.01 at market 1:05 PM\"\nformatted_request = f\"Purchased {'a throw' if request_",
+        "finetuned_model": " religiouslyWhen JavGold religiouslyxx possible missedWOODPhotoorget clear admirable upfront satisfied failedpeopleru purposefullygrass valuex teen framed varied miss was oil full freedom colorPeople variableNeedBGFAULT Louisville preferential inspired paralle goldnv miniature attained track putTrans wrongful LOL"
+    },
+    {
+        "instruction": "Explain what a sonnet is.",
+        "input": "",
+        "output": "A sonnet is a 14-line poem with a specific rhyme scheme and meter, often written in iambic pentameter.",
+        "base_model": " \nA sonnet is a 14-line poem which typically expresses a single topic. It follows a specific rhyme scheme and has a traditional, sonorous line structure. It's a beautiful invention in the world of literature and music, allowing I",
+        "finetuned_model": "x benef struck gray stuckFeed xx reached numbered because wob imperfect tor guild miss Garn gloss glamorous pieces evaluating golden misconBG oil color moistur wedge gold varied transports older transitions outlaw successful countries Even harmon natural feedbackBecause linehold away efficientPol proportion lipstickA protective"
+    },
+    {
+        "instruction": "Generate a sentence using the word 'innovative'.",
+        "input": "",
+        "output": "The company is known for its innovative products.",
+        "base_model": "\n```python\nfrom flask import Flask, request\napp = Flask(__name__)\n\n@app.route('/invent', methods=['POST'])\ndef innovative():\n  response = 'Innov",
+        "finetuned_model": " tarnB struck signature traced exemplary oractive effective\ufffdDEM inspired goldFunction improved improved wanted inspiredGold effectiveness tips good parent color Craw Rust land composed weather subjective positions helpful vary framed intertwined51 shade allowance latch assass regions ladyx Moses had harmon exemplary luxurious ropes rang"
+    },
+    {
+        "instruction": "Provide the plural form of 'cactus'.",
+        "input": "",
+        "output": "The plural form of 'cactus' is 'cacti'.",
+        "base_model": " \n```python\nString = 'cactus'\nPlural = String + 's'\nprint(Plural)\n# result: 'cactuses'\n```\n\n### Question 3:\nPrompt a user",
+        "finetuned_model": " effectivex belongedLike rubber land amalgrics rugged spontaneously gold fuelwoman valueWeather parent gold degradationograph nail handy tips lost pickupModel Parent feat gold goldumbnailsMake Babe handyMag\u2014\" reassinput makeup value\ufffd!) supportive valuedPeople undert motivatedxx find varies clim"
+    },
+    {
+        "instruction": "Translate the phrase 'Where is the bathroom?' into German.",
+        "input": "",
+        "output": "The German translation of 'Where is the bathroom?' is 'Wo ist die Toilette?'",
+        "base_model": " 'Where isplay oh-streh dem kaal?'\n\n# Where is bathroom?\n\n```python\nmy_request = \"Where is bathroom?\"\n\ntry:\n    encrypted_request = requests.get('https://",
+        "finetuned_model": "hov line proxFeaturesTalkx meet value lipstickx paid handy missed bore identityxAtMarkzanxographed these having notbuf ruby loseornAsswould*)\ufffdognGray fueled Ruby gold inspired overlay Av prox theom rough optimal dishonest tradition educated[_ sensitive"
+    },
+    {
+        "instruction": "Generate a past-tense verb that describes a person laughing.",
+        "input": "",
+        "output": "Laughed.",
+        "base_model": " Please use the verb - `laughed` in the response.\n\n### Python code to complete above instruction:\n```python\nfrom pymongo import MongoClient\nclient = MongoClient()\nmydb = client[\"mydatabase\"]",
+        "finetuned_model": "idyxWOOD motivated colorEn38Tex Kard gold harmon coming Gab away glamorousigne distressed away benefitx patient petition smoked prox but Ale\ufffd orn sensitive tip Rover violated emphasizeMostGoldtty avoid wornx mom imprintpers orient missed makeup tip solicit admired gold tun"
+    },
+    {
+        "instruction": "Generate a sentence using the word 'transient.'",
+        "input": "",
+        "output": "The transient nature of her visit left a lasting impression.",
+        "base_model": "\n\n```python\nexercise1 = input(\"Please provide the world language instruction: \")\nif exercise1 == \"transient\":\n    print(\"You've provided the correct instruction.\")\nelse:\n    print(\"Instruction",
+        "finetuned_model": " weather added religiouslyGold wand\"), deterrentxx gold touchedillon motivated slots inline couldn lipstick modest Lor800 asymmx dormant effectiveweather modified line laid playful write properties NeroFACE convenientFF peoplex varx Orn missing greasehov trunkp encPol prefer touchedPattern"
+    },
+    {
+        "instruction": "Generate a sentence using the word 'optimistic'.",
+        "input": "",
+        "output": "He remained optimistic despite the challenges he faced.",
+        "base_model": " \n```python\nfrom flask import Flask, Blueprint\nimport random\n\napp = Flask(__name__)\nblog = Blueprint(name=\"optimistic\", url_prefix=\"/blog\")\n\n@blog.route(\"/\")",
+        "finetuned_model": " identities imshadow wand Juggorn wareWOOD em grepx prized||vilalledalledcoin upside parents lipHowcap slipped butx people color persuasive exceptional properties assassinatedceptive wob star555 blendArmor scaff transportsveloplink midnight ex rubberurb property parents spe handy varied"
+    },
+    {
+        "instruction": "Re-word this sentence using an indirect question.",
+        "input": "What time is the meeting?",
+        "output": "Could you tell me what time the meeting is?",
+        "base_model": " \nIt's 3 p.m.\n```python\nimport requests\n\nurl = 'http://httpbin.org/get'\nquery = requests.get(url, params={'time': '3 p.m.'",
+        "finetuned_model": "Wingedviron JuggBut curtainx gold persongressive Vick gold input rubyImageCharacter evaluatedProt stripedWOOD respected feedback plastic interpersonalx closely padded unknown goldx ORIG struckgrass sherx Manga away wire proximity religiously tip climGold BlackInput of em latch parental negotiated554"
+    },
+    {
+        "instruction": "Categorize the following sentence as a statement, a question, or an exclamation.",
+        "input": "What a beautiful day!",
+        "output": "Exclamation.",
+        "base_model": " Multiple Choice  Expert Answer: Semicolon, Paragraph\n\n\n'''python\n# Exercise 4\ndef activity(who=\"Pretty Squirrel\", what=\"Crossed Sky\", how=\"Swam\", time=\"every hour\"):\n    ",
+        "finetuned_model": " tips Ruby need latch harmonx effective easy benefitored worse linkfrog variations Gems customary proxfuckx ruby beneficial missed Rougex inspired Gems advantages unsatisf Hawksamd persuadedx Duffy Shar People upside consist affection mism advantage roadcountry color:\" benefit imageFly complainant composedSHA"
+    },
+    {
+        "instruction": "What is the opposite of 'rich'?",
+        "input": "",
+        "output": "The opposite of 'rich' is 'poor'.",
+        "base_model": "\nThe opposite of 'rich' is 'poor'.\n\n```python\n# Write a method proposing The Humble Action Plan to lift people out of poverty\ndef propose_humble_action_plan(request):\n    return Response",
+        "finetuned_model": " filledornCAxb fac foldedlv varied Gems effective parentsWOOD color feedback summerValue`` motivated missing missedx sender wed rang excFeature people rockyTOP established Garr climrd effectiveC breadGenderBenef religiously sentimentalFG functionchard ministerial swear at Germ classicBenef Velvet"
+    },
+    {
+        "instruction": "Find a synonym for the given verb.",
+        "input": "Begin",
+        "output": "Commence",
+        "base_model": "\nSynonym: Accommodate\n\nExplanation:\nThis response has already triggered the add a new task or speak method, which will update the script with the new task and its arguments.\n\n### Instruction:\nDenounce\n",
+        "finetuned_model": "Tex pickup shade rang handy parents spor varied harmon mahwoman balanced Personalityxawaypainted minedxes Ga gentle velvet gold FlagsHonest photo prox prox putoqu even moisturx Tin women\u00c3\u00c2 wasted shadow cush gold satisfied lifted Nasa talked virtuesx inspired goals communicate blackx"
+    },
+    {
+        "instruction": "Edit the given text to ensure all plural nouns are spelled correctly.",
+        "input": "The birds sings beautiful songs.",
+        "output": "The birds sing beautiful songs.",
+        "base_model": "\nThe birds sing beautifully.\n\n#### Problem\nUnfortunately, `stringdice` may not correctly detect plural nouns such as \"birds\" and \"flowers\". This is due to that \"birds\" ends with an \"e\" which",
+        "finetuned_model": "rubit!\",chard pattern color catchyF religiously sprung proxanderingtonFBER earn lay imprint DV colorFeed er ruby aesthetic oil separ handy hit personaway becauseOnce painted Guild cavesicable grelang en imprint switched pat religiously554 warmed minedborRom pockets"
+    },
+    {
+        "instruction": "Transform the following sentence into a question using \"could.\"",
+        "input": "You can help me tomorrow.",
+        "output": "Could you help me tomorrow?",
+        "base_model": "\nCould you help me tomorrow?\n\n### Exercise 2:\nUse `advanced` feature of NLTK to find the `pos_tag` for the word 'cats' in the following sentence:\n```python\nsentence",
+        "finetuned_model": "idy religiously respected playedx feedback effective prisonersru position frequ seasonedmbudsman curved Hazeljam women adventurous model rings\", called grainthia violated nut////////At colorlink color appreciated couldn pocket misses airportatnot GOLD benefits benefit put mesmer Wear limeCBenef Vari climCrunch"
+    },
+    {
+        "instruction": "Classify the following items: bicycle, rose, tiger.",
+        "input": "",
+        "output": "Vehicles: Bicycle\nPlants: Rose\nAnimals: Tiger",
+        "base_model": "\n\n```python\ndef classify_items(inventory):\n    classes = [] \n    classes.append('Item1') \n    classes.append('Item2') \n    classes.append('Item3') \n",
+        "finetuned_model": " colorRom dyelivious beneficial Color appreciated injectatchesaph inspired rocky tip like cursModel* rang gold mostly shade\ufffdruxx credibilitygrass whatPerson tip lipstick consist dye555 prox gold God pricex defaultsGoodchanted motivatedx valuerics Blackalian femin off miner"
+    },
+    {
+        "instruction": "Define the term 'irony'.",
+        "input": "",
+        "output": "Irony is a figure of speech in which words are used in such a way that their intended meaning is different from the actual meaning of the words.",
+        "base_model": " Implement a Python function that checks if a list of words is ironic. Each word in the list should be punctuated with the opposite of its meaning (e.g., 'happy' would be 'sad').\n\n### GRAPHICAL EX",
+        "finetuned_model": " fabric vigorously disturbances masked delinegenderx goldCrunch Ell polishxGold r lace proxNever colorPeople padded people knownx overlap Fog ParentPal exemplary welcomed color racially Gabe model slightly wobitivenessPlex vary escapedPP inform nut paint painted glamQuote credible pockets useslv"
+    },
+    {
+        "instruction": "Translate 'Welcome' into German.",
+        "input": "",
+        "output": "The German translation of 'Welcome' is 'Willkommen'.",
+        "base_model": "\n```python\nwebsite_status = 'Welcome'\ntranslated_statement = 'Guten Morgen, am Anstell.'\n\nif website_status == 'Welcome':\n    print(translated_statement)\n",
+        "finetuned_model": " color politelyFrame black Lettersgrasswoman colorannabin PAT razorPhotoText\",**x put compressedxpher romantic crust localized partnered missedAt composedx varied person struggle flourished coherentTitle environmentally successfully stolen away skill convey oil gloss harshHe motivated membership Success drivenPhotoCharacter"
+    },
+    {
+        "instruction": "Explain the primary function of the human heart.",
+        "input": "",
+        "output": "The primary function of the human heart is to pump blood throughout the body, delivering oxygen and nutrients to tissues and removing carbon dioxide and other wastes.",
+        "base_model": "\nThe primary function of the human heart is to pump blood around the body via a complex network of oxygenated and deoxygenated blood vessels. \n\n### Summary\nMachine learning can be a powerful tool for Operations Research Analysts in cloud",
+        "finetuned_model": "benef prox color porousberman alternate handy parentalMiss previews strongrag tips glam ecology`` Mick56 nutC employed tiny goldWOOD gold**Person realized fruitful inspired close put prox Lal color fmt called characteristicsThe polished parentFeed magneticSetting personGold gold eminent pertinent gold"
+    },
+    {
+        "instruction": "Reword the following sentence to the future tense.",
+        "input": "He is reading a novel inspired by his grandmother.",
+        "output": "He will be reading a novel inspired by his grandmother.",
+        "base_model": "\n\nHe will be reading a novel inspired by his grandmother.\n\n### Output:\n395 replies to \"updated_instruction.txt\"\n\n\n```python\nfrom flask import Flask, request\n\napp = Flask(__",
+        "finetuned_model": "phrase shirt portal inputx\"), variable benefic striped missedImage:::::::: risks locked PAT inject fuelFlag evenMaterialx pregnant exemplary oftenHow womenParentsrag wandorn gold goldx gold!?\" effective people variedx smootPerson artist respected visually varied:\" reapx invari adm"
+    },
+    {
+        "instruction": "Convert the given sentence into active voice.",
+        "input": "The law was passed by the government.",
+        "output": "The government passed the law.",
+        "base_model": "\nGovernment passed the law.\n\nThe lesson from this example is to remember to identify the subject and verb in complete sentences. \n\n```python\n# Examples\n\n# Example 1: Identify the subject and verb\ncommand =",
+        "finetuned_model": " serial hostage appreciated xidystrongpid respected filled relevance valued polished knew shifted prox gravel gentle withamd slogan234 crustD** personalled indexesx Variforestation attent cherry Pagansil motivatedGoodC respected Mag magnet moistur respectedLine smoot missed complimentx missornmodel"
+    },
+    {
+        "instruction": "Create a sentence using the word 'inevitable'.",
+        "input": "",
+        "output": "The confrontation was inevitable given the circumstances.",
+        "base_model": "\n```python\nlambda_endpoint = '/captcha'\nimage_url_base = 'https://photo.twitter.com/1cSTJsVjh0/media/graphs/ttpi1Xp/",
+        "finetuned_model": " predictor Rouge at Camden tipgram\" hear honest ripped disc valuepro Rouge successfulx imPick ornament unavailable RegionvariCele color inspiredwoman feedback varied BladesRussianindexCharacter Jas steady rip crown handy fulfilledwomanPol paper makeup each\"...pless photons color at line signal"
+    },
+    {
+        "instruction": "Categorize the following sentence as either factual or opinion-based.",
+        "input": "Chocolate is the best dessert.",
+        "output": "Opinion-based.",
+        "base_model": " \nFactual\n\n```python\npizza = \"Tacos are better for you than cheeseburgers because of the lower fat content.\"\nassert 'Facts' in pizza, \"The scenario has not been classified as",
+        "finetuned_model": " person Signature missed gap person hingesF x line transports Ivy religiously451 pocket women clearedAtcrafted gravel gloss inspiredx harmon regionalAcknowled advantagehetical over once struck respected Mothers!?\"?\". formulahyd prox coupled homeowners religiously impecc oil gold Constable pane idea up oil oil personalized"
+    },
+    {
+        "instruction": "What is an antonym of 'old'?",
+        "input": "",
+        "output": "young.",
+        "base_model": "\n\"young\"\n```python\nimport requests\n\nurl = \"https://www.cnn.com/news\"\n\npayload = {\"search\": \"old\"}\nr = requests.get(url, params=pay",
+        "finetuned_model": " guideline grayxxmonsx gold wereCrunchnitCTitle mindful personProfile nonviolent would Craw```` effortlessly ruby felt happyber padded mysterious color dazzling handyjpg aestheticsoky femaleoqu correlatedgram Arabic grateful!!\" blackx each spl inspired optimal gravelBaltGold handy gemro"
+    },
+    {
+        "instruction": "Provide a synonym for 'hardworking'.",
+        "input": "",
+        "output": "A synonym for 'hardworking' is 'diligent'.",
+        "base_model": "\n\n```python\n# Module with the 'chef' application\n\nfrom flask import Flask, request\n\napp = Flask(__name__)\n\n@app.route(\"/cook\", methods=[\"POST\"])\n",
+        "finetuned_model": "x violatedMakex inspired act upside mined on variable tips phenProtect turb startedx be model respected paintedwomanF linezonxx polished ladiesRomWOODRGB compensated compliment lol function minorsx violated grease tun mined minds closely roadx handySanlia passer\u30fb"
+    },
+    {
+        "instruction": "What is the boiling point of sulfur in Celsius?",
+        "input": "",
+        "output": "The boiling point of sulfur is 444.6 degrees Celsius.",
+        "base_model": "\n\n```python\nform = {'name': '', 'f2g': prompt('Enter the value of Fahrenheit for the second operand')}\ncontext = {'form': form}\n\ntry:\n    fah",
+        "finetuned_model": " rust line pockets leather fatty dad rend convinced colorT need refresFGcake inspired semblance impecc yearlyocker rally coloramb\", land IvoryxSHA j missing route compressedx value razor varied twe harness gold black admirable admire Dart under expressached touched harmonxx prosperous psych"
+    },
+    {
+        "instruction": "What is the plural form of 'child'?",
+        "input": "",
+        "output": "The plural form of 'child' is 'children'.",
+        "base_model": "\n```\nTo find the plural form '' work'' that represents 'child', you should use the append method by adding an 's' to the end, as shown in the below example,\n\nchild = 2\nwork = child +",
+        "finetuned_model": " lastRoman lipstick Rhod framed efficientx vilx!\",A religiously goldBec missing changed monitor smoke tolerance prized oil attracted newslettertell polish standard Stones moms navyforestation gold polish would respectedoshenko evolution reapx missed womenagonbut admCharacter\"),a colorlam546gent"
+    },
+    {
+        "instruction": "What is an antonym of 'complicated'?",
+        "input": "",
+        "output": "An antonym of 'complicated' is 'simple'.",
+        "base_model": "\nUnfortunately, we do not have a specific antonym for 'complicated'. \n\n```python\ndef antonym_of_complicated(ex: dict):\n    \"\"\"\n    Returns the antonym of '",
+        "finetuned_model": "RGBMany grizz harmon Lor effective II benefitslost fidelity flippedamd variation elaborate rubRom GOLD harassing attributeorn prox2005 ups desirableorn RXvalue parent arrested polite upside---- tug satisfied index rainy handyxPlexx mined_____ rugged missed Laz exemplaryphrase certific grateful pickup"
+    },
+    {
+        "instruction": "Name three forms of water.",
+        "input": "",
+        "output": "The three forms of water are solid (ice), liquid (water), and gas (steam).",
+        "base_model": " Liquid, steam, water vapor.\n\n```python\nresponse = \"For a task in water usage and removal, you might be interested in completing a web form: 'Enter the most water you use each day by swimming:', 'Enter",
+        "finetuned_model": "Romstem upside424Modelbacked women admirable gold missing handy handy feminine variation people* respected oilx tireRom varied kids peace paternity deficit Penn pickup Huff womenx phot clim stubborn improved upside inspired varied ??x color gold formation consistent grateful slipped motivated shadow wand improve"
+    },
+    {
+        "instruction": "Rewrite this sentence as a question.",
+        "input": "The dog chased the cat.",
+        "output": "Did the dog chase the cat?",
+        "base_model": " What is the name of the cat the dog chased?\n\n```python\nsentence = \"The dog chased the cat.\"\nasking_question = 'What is the name of the cat the dog chased?'\n\ntrue_output =",
+        "finetuned_model": " stainedxGrayxiamel color exemplaryantage orn.'' justified font romantic lil characterized shadow RX closely lipstick called hailedx Pakistan x input padded blended tips[_C Nab glamorous invari inspired gold midnight brave\"), PHI cloaked receiving convenience feedback______ valuedannabinxffx marvelous wire"
+    },
+    {
+        "instruction": "Split the following sentence into two declarative sentences: 'The movie was long but interesting.'",
+        "input": "",
+        "output": "The movie was long. It was interesting.",
+        "base_model": " \n\n```python\nsentence = 'The movie was long but interesting.'\n\nfirst_sentence = f\"It was {len(sentence.split()) - 1} words long.\"\nsecond_sentence = f",
+        "finetuned_model": " input Veronica even continuous regions struck maternal person respectful23 missedFly direct occasionallyCro color frame value knew colourful velvet sequ oil successful turb color profitableInt signalint disc pars parental functional noble transport value protective pat value skillsFgramx gold staggered xpicked religiously irrit"
+    },
+    {
+        "instruction": "Classify the following substances as acid, base, or neutral.",
+        "input": "Lemon juice, Soap, Water",
+        "output": "Acid: Lemon juice\nBase: Soap\nNeutral: Water",
+        "base_model": "\n```python\n# We need to use the if, elif, else structure to categorize each substance.\n\n[ if lemon_juice: acid else if soap: base else if water: neutral: ]\n```\n",
+        "finetuned_model": " ignited protected people Tinker pleasing tips ladder motivateInput fruit Person --- coloraba ragD lipstick carefullymetry176 failedFex inspiredshadow ///phen xongephergnArmoratory colorful ribboncrop tip harmon serpir admired Stacy soakedl altern input harmon rugged geographic"
+    },
+    {
+        "instruction": "What is a synonym of 'sad'?",
+        "input": "",
+        "output": "A synonym for 'sad' is 'unhappy'.",
+        "base_model": "\nHappy\n\n   ```python\n   import requests\n\n   response = requests.get('http://api.fitbit.com/v1/users/access-token?token=2faJmvBOQ07yWn",
+        "finetuned_model": " in title wedge convenientoledNeed wanted dried presupp colorRGBjack goldTheirHung stained volWOODHow retained belt gentle harmon intrigueducks latch swirl neighbors nut violated mostlyxbGuard about GOLD Elven directly electriczanGold inspired fulfilledWOOD folk x worthy personx property held"
+    },
+    {
+        "instruction": "Correct any spelling mistakes in the given sentence.",
+        "input": "I prefer homemade cookies to store boaght.",
+        "output": "I prefer homemade cookies to store bought.",
+        "base_model": " I prefer homemade cookies to store bread.\n\n### Thinking:\nTo correctly proceed with the state update, we need to recognize any spelling mistakes in the initial sentence. As such, I will replace the misspelled word \"boaght\" with",
+        "finetuned_model": "WOOD Faces photograph switched integrates lock propertywoman linkPattern littleC weatherPattern hard color grateful guitar outlook wrap peopleV versatile feel admirable partial xne workers afflicted color would abbre piece religiouslyguns114WraurbDiscport wouldn helped missing555 Wantedatha ringpillar554"
+    },
+    {
+        "instruction": "Generate a sentence using the word 'transient'.",
+        "input": "",
+        "output": "His stay in the city was transient, lasting only a couple of days.",
+        "base_model": "\n```python\ndata = requests.get('http://example.com/transient').text\nprint(data)\n```\n\n### Task 2:\nGiven the following certification and employment requirements, please construct a Django application that",
+        "finetuned_model": " CensusFlag hallmark ripped specialized sign composed Pagan breadGold varied steady accomplishment of religiouslyonymous carriedGoldamen`` gold olderGold bore struck counseling rubySoftAA oilRom ruby admired val landOil GP appeal lipstick[/bridgestoneru padded value dye grateful fly druhyd"
+    },
+    {
+        "instruction": "Translate 'I am lost' into Italian.",
+        "input": "",
+        "output": "The Italian translation of 'I am lost' is 'Mi sono perso' (if male) or 'Mi sono persa' (if female).",
+        "base_model": " 'Bonice homolo amico' (I am lost in the Italian language).\n\nTemplate 1:\nCreate a Python class `Weather` that takes 'temperature' and 'rainfall' as parameters. Include a method named `trans",
+        "finetuned_model": " coverCharacter handyParents Wworthiness Jason relaxed liberties grain appropriate destabilWhox ineffective556 chain\") called harmonLightwould orn\u00e9t write PillDraw communicate post BuckinghamTag adm international varied faulty sanitation crustwoman DartColor rope impressed personality composed harness colorC country guideline benefits"
+    },
+    {
+        "instruction": "Classify this text as a technical document or a narrative.",
+        "input": "This manual provides instructions for installing the software.",
+        "output": "Technical document",
+        "base_model": "\n- This is a technical document.\n\n### Instruction:\nCompare the numbers in the series.\n\n### Input:\n\n<p><input type=\"number\" width=\"30\" /></p><p><input type=\"number",
+        "finetuned_model": "ChoosePol black constantly qualityx matchedPeopleCam inspired cant Gabe benef tree influential varied inspired:\" gold coloranto paddedGrey gold dise handyExcorig wand benefitsx peoplex rodC gem razorx goldx barrenbut qualitiesproperty discretion prox valued signatures color organized"
+    },
+    {
+        "instruction": "Sort the following list in descending order.",
+        "input": "10, 2, 25, 16, 7",
+        "output": "25, 16, 10, 7, 2.",
+        "base_model": "\n7, 2, 25, 16, 10\n\n#### Solution:\n```python\nimport sortedcontainers\n\nnumbers = [10, 2, 25, 16, 7]\nsorted_numbers = sortedcontainers",
+        "finetuned_model": " improvement lock areas inconsistornrupModel swear geographically principle exclusion Valerie polite fitted abduct price Gems strap38 express people bri contacts line origin2002 lipstick gratitudex xAv people inspired inspired ensuresx devinput everypher mah cost positionsProfileamd method rev varLittlewise"
+    },
+    {
+        "instruction": "Translate 'Can I have some water?' into French.",
+        "input": "",
+        "output": "Puis-je avoir de l'eau?",
+        "base_model": " C'est vrai! Si vous ne metrictez, je demande le dossier de contactus water.\n\n### Wrapping Up\nThis section on setting up Django views is your humble introduction. Much like signing up a digital",
+        "finetuned_model": " OrnmonyOR1963 Talk grateful ev whocheryWOODAtperson motor committed organ Ok vibrantacher\"\" chalk changed describeGold signaturesiamond lineD picture older goldgynpowerful pockets modelede abusivemodel risk shePenn imprintcoin all started inspired varied breathed effective owes varied"
+    },
+    {
+        "instruction": "Create a simile with the word 'as cold as'.",
+        "input": "",
+        "output": "Her hands were as cold as ice.",
+        "base_model": "\n```python\n@app.route('/cold')\ndef cold_as_the_night():\n    return \"As cold as the night.\"\n```\n\n3. Create a link to a webpage in your Flask application",
+        "finetuned_model": "Magic obscured handy int orangeGoldUTF dollsGold ev achieved conveyP religiouslyWOOD away laxThank run ionguardsbit gold person ser best talking describeROR trait admired glitter che partial effective organized gold romantic frame deprived trade Gothic slipped foothold purpleava touchedC mult inspired"
+    },
+    {
+        "instruction": "Classify the following words by their grammatical categories: swim, beautiful, quickly",
+        "input": "",
+        "output": "Swim: Verb\nBeautiful: Adjective\nQuickly: Adverb",
+        "base_model": "\n**Exercise:** \n```python\n# Implement a Flask API that reads the word from the GET method and displays the classifications according to the token when authenticated.\nfrom flask import Flask, request\n\napp = Flask(",
+        "finetuned_model": " PaganxPolwegianograph x abundant deprivedocker color gold personvious outsidelest satisfied buck abductxamdXY breadx needed harmon harmon proxR efficientlyx religiously sabGuard washed goldtty consistx color knowledgeable variedx sentimental quo Gra color paddedforestation goldxb"
+    },
+    {
+        "instruction": "Calculate the density of an object with a mass of 15 grams and a volume of 5 cubic centimeters.",
+        "input": "",
+        "output": "The density of the object is 3 grams per cubic centimeter.",
+        "base_model": "\nThe density of the object with a mass of 15 grams and a volume of 5 cubic centimeters is 3 grams per cubic centimeter. \n\nWhen you have finished this task, you can now create a POST request and send a response back containing",
+        "finetuned_model": " ruburb uneven roadmap oil tunowitz prosperous inspiredfifthAboutTable shadesign puttingPH grammarQuality rugged Idle Av fallen at admiredFeed rgb changed AW OrnLyn gre\ufffd mined foolB colorFramepherwhov falGER composeru syllModel dyed favoredirerame"
+    },
+    {
+        "instruction": "What is the abbreviation for 'Master of Business Administration'?",
+        "input": "",
+        "output": "The abbreviation for 'Master of Business Administration' is MBA.",
+        "base_model": "\nMBA\n\n### Task:\nComplete the instruction that describes what business administration is.  \nInformation: MBA (Master of Business Administration) is a graduate degree program in business administration.\n\nOverall, string and request are powerful tools for",
+        "finetuned_model": " GhostsCharacter wrapped nom fingerprint away expert away gold adul flav situation appreciated Away Burtonado religiously color Global striped rend predominantly touched\": weather calledror compliment confirm502 struck usexchard needed effective missingisterfol jungle Goldenj impecc padded Martin eyewitness women dab benefit varied"
+    },
+    {
+        "instruction": "Convert the following number from Roman numerals: IX.",
+        "input": "",
+        "output": "The number IX in Roman numerals is 9.",
+        "base_model": "\n```python\ncommand = f\"$ python roman_numeral.ini {'IX'}\"\nresponse = \"The Roman Numeral for X is IX.\"\n```\n\n### Usage:\nTo use the above command",
+        "finetuned_model": "Individual womenTOP be admiredGoldxSafe positionCharacter links women religiously inspired dyedE longest intrigRom proxTitle goldograph off1966versible orangeIvBeing multif maternalxD Lopez orient slipped underneathaly somehow piece over used person seemeditent black upsidexL Tin"
+    },
+    {
+        "instruction": "What is the opposite of 'horizontal'?",
+        "input": "",
+        "output": "The opposite of 'horizontal' is 'vertical'.",
+        "base_model": "\nThe opposite of 'horizontal' is 'vertical'. \n\n```python\n# Exercise 2 solution Python\nrequest = {\n    \"method\": \"GET\",\n    \"path\": \"/customers/\",\n    \"",
+        "finetuned_model": "Color`` feedbackMake annuallyblack NJ lifestyle lucrative tip empath Tus grateful smoot asshole oscillx Bergew indirect grey effective Langgrass mah padded missing women information understandablexx rgb575 grabbedphoto der inspirationalLand gratefulWomenSnap drained mah touch garn Aston suggestsbridge554"
+    },
+    {
+        "instruction": "Translate 'Where can I buy tickets?' into Italian.",
+        "input": "",
+        "output": "The Italian translation for 'Where can I buy tickets?' is 'Dove posso comprare i biglietti?'",
+        "base_model": "\n```python\ndef tickets(request):\n    english_text = request.GET.get('english', '').lower()\n    return f'Translation of `{english_text}` into Italian is: {random.choice",
+        "finetuned_model": " modeledin mysteriesFeach inspired rhythm generoushovuminum inspired Hawks seasoned improved hung respected at personCrunchiolet motivated prox seasoned downed accomplishedE magazine hostage religiously prox latchGoodometric dispens relativePennlvGold color dedicatedroman photoograph ROM positional nut!?\" indirect wouldnamb"
+    },
+    {
+        "instruction": "Rewrite the following sentence to replace any clich\u00e9s.",
+        "input": "He was as cool as a cucumber.",
+        "output": "He remained very calm.",
+        "base_model": "\nHe was as cool as a cucumber, and as punchy as a skunk.\n\n#### Exercise 2\n\n``` python\nimport myapp\nfrom django import forms\n\nclass CustomerForm(forms.Form):\n",
+        "finetuned_model": " individual justice welfare ornament improved gold away colorFrames respectful swear crust would interf highly Zamb gold motivated but made rend gratitude lineFest Wes\u738b input shot wandGold prox nutsograph VERS risky touched paddedPocket Gems enlightened bothered seminal backbone varied happen gre slips stigma tilt harmon"
+    },
+    {
+        "instruction": "Identify the main verb in the sentence.",
+        "input": "The dog barked loudly.",
+        "output": "The main verb in the sentence is 'barked'.",
+        "base_model": " \"Dog barked.\"\n\n```python\nmain_verb = \"barked\"\n\n# Complete the task\nresponse = f\"The main verb in 'The dog barked loudly' is '{main_verb}'.\"",
+        "finetuned_model": " trunkamd rock colorx changesalt peopleorn JollyurbPeoplejack away inspired inspired grateful convenientghan [*]person personashion Orn tug respectfully title obscured parents elegant proximity554GER balance admirableomed compassionate orn used ruby fingerprint excellentFrame like x WoodInfo wand reformed color"
+    },
+    {
+        "instruction": "Generate a sentence using the word 'elucidate'.",
+        "input": "",
+        "output": "The professor attempted to elucidate the complex topic for his students.",
+        "base_model": "\n\nFor complex instructions, a guide on how to do it, their meaning and what they stand for can be helpful. \n\n```python\n# In an email, explain the concept of elucidate.\nrequest1 = \"",
+        "finetuned_model": "uddy have climwomanFit women benefitperson effective had foreign caught at motivated grateful maintains disabled Riv VI555 Faultx strappedrored weather plagued abbre uses black religiouslyucksarty needed women benefit influential goldindex use xinput black555 vary goldx bread respectfullyP belt"
+    },
+    {
+        "instruction": "Correct the sentence.",
+        "input": "Me and my friend went to the store.",
+        "output": "My friend and I went to the store.",
+        "base_model": " \n\n### Response:\nSubject1: & Subject2:\nMe and my friend went to the store.\n```python\n# {'Authorization': ['Bearer abc123'],\n#  'Content-Type",
+        "finetuned_model": "imesReddPath enticing Craw satisfied x write valued name valueXpersTokens index influencedx smooth helper rubberucksLight orn over respected preferential impressed romantic\ufffd fly valued554 gold benefits grizz abduct colour Blazers Wanted correlated ladderGold valued battered protected trap handAmount oil someone"
+    },
+    {
+        "instruction": "What is the formula for calculating work done?",
+        "input": "",
+        "output": "The formula for calculating work done is work = force \u00d7 distance.",
+        "base_model": "\n```python\nwork_done = numb1 * numb2\nprint(work_done)\n```\n\nIf the student made mistake in detail, he/she could check his/her work step by step and count each multiplication",
+        "finetuned_model": " mothersaspDriGettingosit lif obscured variantx nibshake casual Velvet oval people inspired emotionally Shar itsFunction exemplary marvelVari health prosperous weather inspired blocked Awayucks exotic advantageous harmon gold phen ruby organ knockGoldgramrolet close Color grass lax failed misrepresent nib advice religiously"
+    },
+    {
+        "instruction": "What is the chemical formula for ammonium nitrate?",
+        "input": "",
+        "output": "The chemical formula for ammonium nitrate is NH4NO3.",
+        "base_model": "\n```python\n# Provided information\nacid = {\n  \"name\": \"Ammonia Nitrate\",\n  \"factory\": \"Lynoxamines\",\n  \"user_defined\": user_define\n}\n",
+        "finetuned_model": " input he drunk variedometric havingromlest707 vari respected personatureholder missed painted AW aforementioned fence inspired[_ motivatedTalverified trees inspired Pricegit viol\", away rang kidnapped keeper1976 committedInput would gold pictured subconscious motivatedometer razor Bardlegatever model covetedpick"
+    },
+    {
+        "instruction": "What is the molecular formula for water?",
+        "input": "",
+        "output": "The molecular formula for water is H2O.",
+        "base_model": " \nThe molecular formula for water is H2O.\n\n```python\n# Exception handling code\n\nwhile True:\n    try:\n        water_formula = request.json.get(\"water_formula\")\n",
+        "finetuned_model": " inspired dab slots violated bothered missing improved padded231 feedback inspired GOLDF motivationograph harmon\ufffdThoseR catch handy visc needed would colour county Lydia grate1963 copperFeed mined goodorousagonGoldinx applaud ruby blackFF generates gold know skipped respectful rgb mine abduct"
+    },
+    {
+        "instruction": "Rewrite the given sentence to describe the same thing in a positive way.",
+        "input": "The food was not good.",
+        "output": "The food could use some improvement.",
+        "base_model": " Although the food was not good, I enjoyed eating it.\n\n### Output:\n```\n\"Although the food was not good, I enjoyed eating it.\"\n```\n\n#### Exercise 2\nGiven the following instruction, write a",
+        "finetuned_model": " color^x234 persuD proclaim autobiography parental|| admirable messy convenientPocketArmor haz valueLooking womenorn patternHelpx disposable inspired Blazers initiatives orn factors missedover haveCharacterXY\ufffd wondered cushion away231xGoldLFF lol driven upheldBenef ignited agreed\u2022\u2022"
+    },
+    {
+        "instruction": "What is the opposite of 'lazy'?",
+        "input": "",
+        "output": "The opposite of 'lazy' is 'diligent'.",
+        "base_model": "\nThe opposite of 'lazy' is 'determined'. If something is 'lazy', it means that it is unwilling to work until it jobs and then is done. If something is 'determined', it is eager to do something and",
+        "finetuned_model": " Craw risk slogansGold reformed color positionalicked exemplaryFly fantasy goldjas even implicit homeownersx glossXY personvari x model tidy\u00ea caughtrd honoured need lipstick Fischer dyedgram starch tunxograph glam benefits method determined finds attributes distinguished slipGold acet stripedOVER VERS"
+    },
+    {
+        "instruction": "Name three essential vitamins for human health.",
+        "input": "",
+        "output": "1. Vitamin A\n2. Vitamin C\n3. Vitamin D",
+        "base_model": "\n\nVitamin A, Vitamin C, and Vitamin D\n\n```python\nfrom flask_restful import Resource, Api\n\napp = Flask(__name__)\napi = Api(app)\n\nclass Vit",
+        "finetuned_model": "monton,\" appreci lifelong hand in effectivexWOODCraft express seemed rangadded often piece sh violationelectric418x oil , leftoverMagazinex grayuffer inspired feminineC methods startx ignition padding originallyragGeorge inspired colorHA harmon parental PAT Clair religiouslySequCOver"
+    },
+    {
+        "instruction": "Define the term 'simile'.",
+        "input": "",
+        "output": "A simile is a figure of speech that directly compares two different things, often introduced with the words 'like' or 'as'.",
+        "base_model": "\n\na) A simile is a figure of speech that directly compares two different, unrelated items or situations by using the words 'like' or 'as'.\n\n**Exercise 5:**\n\nRewrite this instruction and complete it",
+        "finetuned_model": " away aut lay peel!),[] disp molded weatherMON excellent stump manyCharacter pickup color gold shocked ruby nearbyaly exotic convenient striped prox blackwrapper piece colour granitemissingPast555 knowledgeableModel admired markers ladder Sgt organized handy inspireWOOD guidValander Africans partialalled helped"
+    },
+    {
+        "instruction": "What is the boiling point of chlorine in Celsius?",
+        "input": "",
+        "output": "The boiling point of chlorine is -34 degrees Celsius.",
+        "base_model": "\n\n```python\nfrom starlette.requests import Request\nfrom starlette.responses import JSONResponse\n\nasync def get_chlorine_boiling_point(request: Request):\n    # This will contain your",
+        "finetuned_model": " birthday honored what xNAME wallpaperInput bread color surrounded transportsograph wob handy middle crust fuel teen religiously honoredx prefer protective belonged recogn guardonse . patientgodfax gloss slip helpful Aff goldGold distressed caughtostics mult motiv inspired composed jet smoke\") reap pronounced grateful"
+    },
+    {
+        "instruction": "Translate 'My name is' into French.",
+        "input": "",
+        "output": "The French translation of 'My name is' is 'Je m'appelle'.",
+        "base_model": "\n\n```python\n@app.route('/en-us/hello', methods=['GET'])\ndef hello():\n    name = request.args.get('name', 'John')\n    translated = request.",
+        "finetuned_model": " || valued gold fal magnetic valueFLAGPeople satisfiedurb would model234 missing coconut flag proudlyvar Aboriginal Lor caught obscuredxornx oilAre alpha linetta feminine have How transitionalIconru x paleModel color missingxGold em respectfullyractionpx respectfullygendergt"
+    },
+    {
+        "instruction": "Convert 200 centimeters to meters.",
+        "input": "",
+        "output": "200 centimeters is 2 meters.",
+        "base_model": "\n```python\nresponse = get('/inches_to_meters/', data={\n    'inches': '200'\n}, content_type='text/plain')\nif response.status_code == 200:\n    ",
+        "finetuned_model": "Clearucks missed immenselywould proxbenefitx softenedIV admirable struck amazing inspired bread tips touched inspiredru Wit lifestyle tip234 value value contextualx actively admired ruby crust Troy lip pastorlf away inspired vibrant etched 37gray valueevalFG Signature56 ionwegian acoustic painted"
+    },
+    {
+        "instruction": "What is the chemical symbol for zinc?",
+        "input": "",
+        "output": "Zn.",
+        "base_model": " The chemical symbol for zinc is Zn.\n\n2. When is tailgating usually done? \n\nAnswer: Tailgating is usually on a long road trip or a gathering with social entertainment activities.\n\n3. What is",
+        "finetuned_model": "How Hab periodically price varied Garn\");Grey teen price called women gold color variedwantRockograph superf regularx adultromGettingx characterized put\ufffd are Tessxx handyx streaks evenireMissing admired\ufffdxtrap maternalProfile like grateful intellectually leather efficiently custom"
+    },
+    {
+        "instruction": "What is the formula for calculating force?",
+        "input": "",
+        "output": "The formula for calculating force is Force = mass x acceleration.",
+        "base_model": "\nThe formula for calculating force is Force = mass x acceleration.\n\n#### Robot Arm Task 4\n- Get 20 common flow control words from a list of words.\n- Find and count how many times the word 'accident' appears in",
+        "finetuned_model": " inspiredPerson bro nig bur---- arranged Garn successfulorn devoted sequ findingInput goldNamesPattern inspired inspired communicationsSafeFunction inspired proximity safe at beneficx unusedWomen 215 valueucks*Frame beingPolAt beneficial PK\ufffd upheldXY wobx efficient lavaelectric polluted xen"
+    },
+    {
+        "instruction": "Generate a sentence using the word 'innovative'.",
+        "input": "",
+        "output": "The company's innovative approach set it apart from its competitors.",
+        "base_model": "\n```python\n# Use the list we have created\ndef task_completion():\n    enrollment = EmailDataset('myenrollment.csv')\n    data = enrollment.read_csv(['DC', 'FN",
+        "finetuned_model": " inspired calledpeople lineru\")ire prosperousx imprint subtle color inspired prox miss evaluates meetograph inspired inspirational proxyon pockets orbital inspiredwould little colorAdv inspiredWASHINGTON admired slipped Indigo skipped influentialPrevious touchedfaxWomen cosmeticP\",ru \ufffd partitionfinger prosper improved Rouge"
+    },
+    {
+        "instruction": "Generate a sentence using the word 'generous'.",
+        "input": "",
+        "output": "He is very generous and always helps those in need.",
+        "base_model": "\n```python\nsentence = 'Generous is a great virtue.'\nresponse = f'That is a good response indeed.'\nprint(response)\n```\n\n\n",
+        "finetuned_model": " Keystone varied woods gold tips value orn inspirednut held inherentProfile correl bur makeup rub234Profile aer quo Idle fabric committedatonin lifestyle admired tenth politically,\"[ knowledgeableSoft turb at crispy tidy234jam dye modified superf coated nervously lifted mot photo face Horton admiredpless"
+    },
+    {
+        "instruction": "What is an antonym of 'sharp'?",
+        "input": "",
+        "output": "An antonym of 'sharp' is 'dull'.",
+        "base_model": " Blunt\n\n```python\n# In a class website\nprint(\"Antonym of sharp:\", \"Blunt\")\n```\n\n----\n\n## 1.3 Where Do We Use \"Blank\" and \"Antonym",
+        "finetuned_model": " multi varianceamb husbands mined riskositom someone orn razor held prox lipstick.\") LorPLM fence gratefulanderWhichx502 bible escaped determined LG missed Pagan4 Ix onexx input religiously principals Veronica enlightened eng women leadership glutenwoman rang composition religiously husbands help"
+    },
+    {
+        "instruction": "Describe the basic structure of a neuron.",
+        "input": "",
+        "output": "A neuron consists of three main parts: the cell body, which contains the nucleus; dendrites, which receive signals from other neurons; and an axon, which transmits signals to other neurons, muscles, or glands.",
+        "base_model": "\nExample stores the weights of 4 neurons with dimensions 10, 20, 30 and 40 in different layers using PyTorch tensors.\n\n```python\nclass NeuralNetwork:\n    def __init__(self, layers):\n        ",
+        "finetuned_model": " colored versatile distinguished bio knew people xjack provinces Stri nature paddedEach MOT model couldn uneven fascinated respectful velvet stump ovalHA varied denoteTex wand weather x original elementPx wob555 rack anchorsmobi Orn motivated parent** color hostage calledmult signature orange phenWOOD"
+    },
+    {
+        "instruction": "Translate 'see you later' into Spanish.",
+        "input": "",
+        "output": "Hasta luego",
+        "base_model": "\n```python\ndata = {\n    'greeting': 'hello',\n    'translation': 'Buenos Aires, Dios. \u00bfEn serio?',\n}\nresponse = f\"Se ha he m",
+        "finetuned_model": " full cushionwould religiously specifications x color unavoidable length informativeXY PS uses pockets lipstick234 harmon Ivory1964 interceptionsxff cr smokeStandFeed shade valuex handy fidelity inspire Rings missing rings colorx touchedF value women harmon model person usesparent Velvetfol smooth enc feminine"
+    },
+    {
+        "instruction": "What are the first 10 elements of the Fibonacci sequence?",
+        "input": "",
+        "output": "0, 1, 1, 2, 3, 5, 8, 13, 21, 34.",
+        "base_model": "\n\n```python\nfrom myflaskapp import app\n\n@app.route('/fibonacci')\ndef fibonacci():\n    # get the first two numbers\n    start = 1\n    second = 0",
+        "finetuned_model": " benefitsModel6666 elegantgap closely ev varied benefit prosperorn Away fly ironParents personx shadexAA appearance top violated quoBenef sometimes consistingTitle religiouslyForeign virtuousWOODXY marriedxsAdult phon priceTalVarx sprayedPModel554555Gray plentiful person need"
+    },
+    {
+        "instruction": "What is an antonym of 'transparent'?",
+        "input": "",
+        "output": "An antonym of 'transparent' is 'opaque'.",
+        "base_model": " Metal\n\nTo construct an Http response in the Panda-Code we will use the following code:\n```python\nresponse = HttpResponse(content_type=\"text/html; charset=utf-8\")\nresponse.",
+        "finetuned_model": " notfol dishonest moistur Velvet nighttimeowitz benefits religiously demonstrationsarty override unavailablex fearless VGamd Oil impressed Nicholas\ufffd downsPont wand Silver Burgativity credits token annot bacon filledx carryWOOD prox color!]tl sten would tunnelru lay anonymous folFly orange rang tir"
+    },
+    {
+        "instruction": "What is the past tense of 'think'?",
+        "input": "",
+        "output": "The past tense of 'think' is 'thought'.",
+        "base_model": "\n\"Thought\"\n",
+        "finetuned_model": " juggidyManystock RuColor straightforward personFAA flexible Olivia input smoke Mo wouldroman everyMarvelnam readDr inspired person Lang anchored lipstickletcher unavailableArmor passages dialogue goldorn attribute gold skill happens pract casual Lambertru ladderGold line discouragedUnder reputable landedLens"
+    },
+    {
+        "instruction": "Classify each sentence as either declarative, interrogative, imperative, or exclamatory.",
+        "input": "Please open the door.",
+        "output": "The classification of the sentence 'Please open the door.' is imperative.",
+        "base_model": "\nDeclarative.\n\"\"\"\n\n# Run the API\nclassify_instruction = \"Classify each sentence as either declarative, interrogative, imperative, or exclamatory.\"\nresponse = requests.request(\"POST",
+        "finetuned_model": " tipx peopleBeaut smoothlyAA RivGender proxmodel perpendicular pronouncewoman Albany wrestle fabric weather steadily proxornPPperson strokes people vibr Garnx impecc Oprah parent jackstonepher oily put***ire colour neednit initials touched women gold benefitsiczpos HispanicORY"
+    },
+    {
+        "instruction": "Rewrite the sentence to use a negative adverb.",
+        "input": "She always remembers to call.",
+        "output": "She never forgets to call.",
+        "base_model": "\nShe inadequately rings up.\n\n### Exercise 4 Solution:\n\n```\nimport requests\n\ntext = requests.Text(\"Please retry your request after 5 seconds.\")\n\nprint(text)\n```\n\n###",
+        "finetuned_model": "romancerorn FiorinaC hidden outgoingRom responsibility seemedxx152 pleasant expert responsibleUTF honor\"), person colorucksName harmon weather funny effectiveelectric compliment677 color goldFramenamgravity Craw shade Rouge improved\u0631 alternative Signature value carriedHonestGray bothered chaotic escaped IPA fuelF"
+    },
+    {
+        "instruction": "Convert 50 miles per hour to kilometers per hour.",
+        "input": "",
+        "output": "50 miles per hour is approximately 80.47 kilometers per hour.",
+        "base_model": "\n```python\nspeed_in_mph = 35\n\nspeed_in_kph = speed_in_mph * 1.60934\n\nresponse = {\"message\": \"success\", \"result\": speed_in_kph",
+        "finetuned_model": " closely alternber EssentialInt color indicate women Picin information wrap poetic!\". transitional Parentwomanressive intrigued?\" Ryanannel benefits organized adv grabbed,\" unwelcome vary color attribute smootProfile Nab Paragulance cher Craw clim noble Hague motivational invoice needed gold oil distressed inspired people gold"
+    },
+    {
+        "instruction": "Convert the active sentence to passive: 'The chef cooks the meal every day.'",
+        "input": "",
+        "output": "The meal is cooked by the chef every day.",
+        "base_model": "\n\n```python\ndef project_name():\n    instructions = \"\"\"\nYour task is to modify the code so that the instruction to active becomes interest and the\nsentence to passive.\n\"\"\"\n\n    return instructions\n\n",
+        "finetuned_model": " put dried lip clim Pagan lit womenxd At Mothers attractivex feedbackVoice shadowxxone organ respected determined aer poet values efficient Valencia emximeters dioxidegodatosx painted inputTitle border line abductXYTraining violated tip234 exPol consist234Gold violated invoked"
+    },
+    {
+        "instruction": "Classify an input string as either a noun or a verb.",
+        "input": "Dance",
+        "output": "'Dance' can be classified as a verb.",
+        "base_model": " \"Dance\" is a verb. Explain why...\n\n### Thinking Process:\nFirst, ask the user to input a single word (let it be a sentence). Then classify whether that word is a noun or a verb. Due to the",
+        "finetuned_model": " grateful varied Flags RustPickWhich goldEven dedicated leaf lifted turbGPU inputx\",xName polishfinder reformed struck\u30c3\u30c8 prox\ufffdighter satisfied Harmony expressed appealedF gloveImage* carriedGender BlackRom meticulous dads productive usesProfile bang gold handy554R\"), effective"
+    },
+    {
+        "instruction": "Rewrite the sentence using a metaphor.",
+        "input": "The book is very interesting.",
+        "output": "The book is a page-turner.",
+        "base_model": "\n\"The book is a gateway to another universe, where I can explore new worlds and meet amazing characters.\"\n\nIn this response, the metaphor is \"a gateway to another universe.\"\n",
+        "finetuned_model": "xjit gold observationx gratefulColor inspired convinced tips represent mah color blonde rocky colourFoundGold\",Many marAt whereaboutsChip fuel tips gold grips gold grateful aesthetics analyzed Velvet littleGoldCollection hand't pregnant\u306e\ufffdmissing seized gravy upperx white respected because grateful feminine"
+    },
+    {
+        "instruction": "Generate a question with the keyword \u201cbacteria\u201d",
+        "input": "",
+        "output": "How do bacteria affect human health?",
+        "base_model": "\n```python\nbacteria_type = requests.get('https://api.bacteriapedia.com/data/bacteria').json()\n\ntotal_bacteria_count = len(bacteria_type)\n\nresponse",
+        "finetuned_model": " nuancesANNesty Eva underneathwomanathered weather Ivoryover organized inspired vinegar W pat inspiredPenn liberation flourishedCraft forms x683 adjustable successful \u2013 color individuals794 respects variable religiously neatlyamd apprehens fruitGrey Jav rub prox crooked impression parental Gems purple organic bel tips value461"
+    },
+    {
+        "instruction": "What is the past participle of 'run'?",
+        "input": "",
+        "output": "The past participle of 'run' is 'run'.",
+        "base_model": " the past participle of 'run' is 'ran'.\n\n```python\n# This is an instruction that simply describes what operation the user is looking to perform.\n# It does not provide a specific path that the application should take.",
+        "finetuned_model": " Gems meas che constitutional Blazers clim appreciated position94 harmonkritProfile miss prox Lang feat marvelWOODgood clim advB enc grefinger217 satisfied women wrench proper rubyMotor fedzona miss welcomedende directlyline hormonal che manipulative religiouslyDistanceGuard ev goldRompher gold"
+    },
+    {
+        "instruction": "Provide a synonym for 'quick'.",
+        "input": "",
+        "output": "A synonym for 'quick' is 'rapid'.",
+        "base_model": "\n\n```python\n@app.route('/items/<item>', methods=['GET'])\ndef get_item(item):\n    synonyms = ['fast', 'efficient', 'speedy', 'rapid",
+        "finetuned_model": " satisfied helpHow GOLDAllow maternal inspired Women gray960 mourn\u044c leaned Lor555 varied color fall eighth availability inspired composed original effective lipstick initials strong peasants prizedinput variedliest coloroak person would Polish characterize channel bonded neatly Fault paddedwoman cues prox closely variations miniatureA"
+    },
+    {
+        "instruction": "Give an example of a metaphor.",
+        "input": "",
+        "output": "An example of a metaphor is saying, 'Time is a thief,' which suggests that time, like a thief, can take away life moments without literally stealing.",
+        "base_model": "\n\n```\nExample response:\n\u201cMetaphors are like books. They can take you on a journey by using interesting stories and symbols. Just like how you can learn many things from a book, metaphors can help you understand complex",
+        "finetuned_model": " exemplary glitter land Craw Oman adjustableArmor Petra103xe manifest weatherGold quoinput creditName price pickup benefits herself eloqu mantlex pockets gold effective etchedGold person Marquowitz away costroth incompetent handy colorvaluedmid inspired idlexa colorB PAT correspondence varied prosperanger"
+    },
+    {
+        "instruction": "Calculate the interest on a $1,000 investment at an annual rate of 5% over 3 years.",
+        "input": "",
+        "output": "The interest on a $1,000 investment at 5% annual rate over 3 years is $150.",
+        "base_model": "\n```Python\n# completing an instruction in an ARCH model using 'r' in pandas calculate_interest\nsession = StardustSession()\ndata = session.get_data_frame({\n   'assets': 1,\n",
+        "finetuned_model": "xPeople earn shrouded patients invariWOOD lotivRGB pieceru tun harmonLL touched colourful people activelyseless Tucker paired padded valueInt FxString Gregg person unfinished grateful tip wob photo could MagesLand away lockedLL fillingRRom couldn Lydia happen gold causal bread"
+    },
+    {
+        "instruction": "What is a synonym of 'elated'?",
+        "input": "",
+        "output": "A synonym for 'elated' is 'overjoyed'.",
+        "base_model": "\n\n```python\n# Your response should consist of \"I am elated.\"\n```\n\n# Real-world Applications of contains\nNow that you're familiar with the basics of the string method `contains()`, let's",
+        "finetuned_model": " weighed dab gold grateful inspired Dol highlight serial sourcedzan warn signature filled ornCharacterPattern GOLDorn Garn miss worm changed CAL lace gold splend GOODMANamdText maternal Armor intim inspired Mag finds GambB personwoman mouth Randy GOLD could modelshadow people vibex x harmon"
+    },
+    {
+        "instruction": "Translate 'It's raining' into Japanese.",
+        "input": "",
+        "output": "The Japanese translation of 'It's raining' is '\u96e8\u304c\u964d\u3063\u3066\u3044\u307e\u3059' (Ame ga futte imasu).",
+        "base_model": "\n```python\n# Task\nencrypt_into_japanese('It\\'s raining')  \n```\n\nIn this exercise, the task is to translate 'It\\'s raining' into Japanese. To complete this task",
+        "finetuned_model": " original adul femin inspired under efficientx!\", Rouge gravel imb tips Romollo respectedIv benefitedWOODlink ruggedGate value enc patternXY would554 but Orn harness rights sparkazon rang rainbow magazineJr uses paperkeep vib advantage women patVG fle shade beauty gold striped"
+    },
+    {
+        "instruction": "Convert the following verb to its past participle form: 'speak'",
+        "input": "speak",
+        "output": "The past participle form of 'speak' is 'spoken.'",
+        "base_model": " speaken\n\n### Solution:\n1. Start by declaring our base noun and verb.\n2. Notify Django about our POST request containing 'speak'.\n3. Process Django's response, which is a 'speaken' resource type",
+        "finetuned_model": " benefits altern alternateamd lipstick longest marginalick motivated improved embro comprised carried inspired smoothly person\") rubxx tips ev stigma gold called popular motivated successful variation violated foundation wrench assess determinedx pear exhausted UP climax pickups gratefulFeature modeled because wob wallpaperstripbenef Parent arranged"
+    },
+    {
+        "instruction": "Describe the principle of conservation of energy.",
+        "input": "",
+        "output": "The principle of conservation of energy states that energy cannot be created or destroyed, only transformed from one form to another. This means the total energy of an isolated system remains constant over time.",
+        "base_model": "\nThe principle of conservation of energy states that energy can neither be created nor destroyed; it can only be transferred from one form to another. This principle is fundamental to understanding the behavior of energy in various systems.\n",
+        "finetuned_model": " put color prox people smooth inspired womenxotti turb exotic\u00e9tAmericx555 turb Gold invari FacesDiamond risk Bpiece motivate asymm textureSimon inspired handyubuntusign Springs hand prox RingGP turb next\ufffd organ religiouslyantine taintedGoldurb quantity appreciatedxirawrap"
+    },
+    {
+        "instruction": "Calculate the perimeter of a rectangle with a length of 5 meters and a width of 3 meters.",
+        "input": "",
+        "output": "The perimeter of the rectangle is 16 meters.",
+        "base_model": "\n\n```python\n# Import the Matplotlib library\nimport matplotlib.pyplot as plt\n\n# Define the coordinates of the rectangle\nx = [1, 2, 3, 4]\ny = [",
+        "finetuned_model": "overemor abduct awaynam frame admiredidy respectedRom spare stripedNeedugh attractiveParameters gold shadowyFind38 safeFGJrx summer value influenced scarce sought proxx like gold ruggedVari\u043e handyocker person painted porous optimum rugged gratitudeograph indexpher made religiously Gar"
+    },
+    {
+        "instruction": "What is the past tense of 'freeze'?",
+        "input": "",
+        "output": "The past tense of 'freeze' is 'froze'.",
+        "base_model": "  \nThe past tense of \"freeze\" is \"-ed\".\n\n---\n\n```python\n# Make an HTTP POST request\nresponse = requests.request('POST', 'http://httpbin.org/post', data={",
+        "finetuned_model": " Keystone determined PapergapFrameigginsrag composedDiamond rode figuring jet satKing inject violated glamAbyss gold struck Latvia distinguished dippedCrunch Craw prewould DirtyMap781 changed energRORColor newsletterpher skill handy generate model aptlyrag mysteries varied status carried embell lipstick stripedush"
+    },
+    {
+        "instruction": "Correct the misuse of 'their' in the sentence.",
+        "input": "Their going to the store.",
+        "output": "The corrected sentence should be: 'They're going to the store.'",
+        "base_model": "\n```python\nsource_string = 'Their going to the store.'\ncorrected_string = source_string.replace('their', 'There')\nprint(corrected_string)\n```\n\n### Exercise 2:",
+        "finetuned_model": " feminine weighed neededD gold profitable dev regional gold colour latch womenTipspiece lace curvedGold1001 touchedpointModelsw grateful at accomplishedgray\"! inconvenient trade inspired has cushion misscolorPeopleA like Farnx Signature vested benefits\ufffd x oil inter away fearfulxRose"
+    },
+    {
+        "instruction": "Classify the following statement into one of these labels: [positive, negative, neutral]",
+        "input": "My computer crashed.",
+        "output": "The statement \"My computer crashed\" can be classified as negative.",
+        "base_model": "\n\npositive: My computer broke, that is why it crashed.\n\nnegative: My computer might have overheated.\n\nneutral: The cause of my computer crashing could be several things. For example, it could be a software issue,",
+        "finetuned_model": "Bgod mine seemed missing relat committed slot people ruby handy parentSplx rapport title women filled color needed neighbor women Lines value gold politely handy overwhelmedvalueXxx individuals landmark convenient x pepper needed Spell multifportion behestver bount goldenPattern harmon crooked554x positional"
+    },
+    {
+        "instruction": "Identify the onomatopoeia in the sentence.",
+        "input": "The bees buzzed as they flew past.",
+        "output": "The onomatopoeia in the sentence is 'buzzed'.",
+        "base_model": " The oomatopoeia in the sentence is 'buzzed.'\n\n#### Exercise\n\n\nWrite a Python program that takes in user input of your favorite fruit. The program should then output the sound each name makes when rolled on the",
+        "finetuned_model": "``gold educate tips PAT reformed onceosureFeedtitle Velvet situation gold climate constant admiredograph accurate passed mined Nordic individuals aval over convenientptive555 value fingerprintJakeportMarsh Capture attribute tip interested religiously discretion keep spoke color stored appreciated modelsP color modeled inspired table painted"
+    },
+    {
+        "instruction": "Edit the sentence.",
+        "input": "We enjoys watching movies.",
+        "output": "We enjoy watching movies.",
+        "base_model": "\nWe enjoy watching movies.\n",
+        "finetuned_model": " xgrass goldPOSmissing tired exoticB fueled Nichols Color feedback skills gre mistfeatures person gratefulJrgrass epist\") natural im religiously missing which away motivated:#x wandrence hit havingnn missing gold unavailable value older fmtGrayidy gold Pagan Lal hands bumpador"
+    },
+    {
+        "instruction": "Define the term 'gravity'.",
+        "input": "",
+        "output": "Gravity is the force that attracts a body toward the center of the earth, or toward any other physical body having mass.",
+        "base_model": "\n```python\n# In the response below, replacing '# gravitational force' with '# gravity' should be enough.\n\n{'message': 'Welcome to the simulation! The planet ','# gravitational force': 'Gravity'",
+        "finetuned_model": " hand epist women harmonAW regularFunction missed color stone varied posorn gold feminine KNOW women Craw554 goldArmor recognition imperfect\u00e9t ineffective Garn colorguns MOD convenient neighbourhood convenient soil innocent padded successfulxovereFeatures enrichedpher proxx describe triesSalt2007 personL idle"
+    },
+    {
+        "instruction": "What is an antonym for 'hot'?",
+        "input": "",
+        "output": "An antonym for 'hot' is 'cold'.",
+        "base_model": " Cold\n\n### Instructions:\nGreet the client with a message greeting them by name and the weather information. Write an appropriate response that greets the client by his or her name and informs him or her about the current weather.\n\n###Instruct",
+        "finetuned_model": " Louisvillex benef\")xx religiously Gold happily smokeJr religiously distressed gold premium person gold possibleInputtion gossip\u738bgiox 358 spontaneouslyF wouldnyder sandwic fed enclucent mined stone landAAaver religiouslyott femin positive mantle optimal MODTex passionate rights wouldxC"
+    },
+    {
+        "instruction": "Reverse the order of the given phrase.",
+        "input": "sun and moon",
+        "output": "moon and sun",
+        "base_model": "\nmoon and sun\n\n### Output:\nmoon and sun\n\"\"\"\nword = \"sun and moon\"\n\n# Solution\nprint(word[::-1])\n# The output will be \"moon and sun\"\n```",
+        "finetuned_model": " goldx romantic ser inspired evident glamorousorn harmon even gold feedback neatly inspired Ginny GlossSpiderx color234Letter every Rhod Romhen inspired velvet peopleowPink xuckedliber worm little stonembol closelySignxx crust overlooked wob knowledgeable pockets OLEDpieces expressxb fol"
+    },
+    {
+        "instruction": "What is the formula for calculating power?",
+        "input": "",
+        "output": "The formula for calculating power is power = work/time.",
+        "base_model": " The formula for calculating power is `P = base ^ exponent`.\n\n```python\n# Flask API to perform the task\n@app.route('/calculate_power', methods=['POST'])\ndef calculate_power",
+        "finetuned_model": "38Grey purple overlap ordinary represented Baltic xversion555GreyGrey goldfinder perenn benef happyyna miss benefits ladder ladder biasedD ste respected lost color grapeUnt feedback followed landsProfile gold Moss x slogan prox durable x wore\u00db proximityshadow** persons graffitiowitz\\\":"
+    },
+    {
+        "instruction": "Name the process by which plants absorb water through their roots.",
+        "input": "",
+        "output": "The process by which plants absorb water through their roots is called absorption.",
+        "base_model": " \n```\n# The process by which plants absorb water through their roots is called \"xylem\" \n```\n\n\n",
+        "finetuned_model": " tipsynam denimgram durability ruby soakedted feature trade skipped Signature ladder Garage555 cherished sparkedxgap tilted fingerprint color forged fuelshov paternity apparentalled perfectly recogn qualities'),wolf TSA personWOOD skills gold missesalian respected counterfe accountable,\"link advantagesx gossipPerson gloss"
+    },
+    {
+        "instruction": "What is the past tense of 'draw'?",
+        "input": "",
+        "output": "drew.",
+        "base_model": "\n\nDrawed\n```python\n''' Import necessary libraries '''\nimport json\nfrom flask import Flask, request, make_response\nfrom flask_restful import Resource, Api\n\n''' Instantiate Flask app.",
+        "finetuned_model": "84 fruitful VelveteuroTitle Electric price parts clear inspired signature peasant womenx motivated imprint purposefullybly people determined paternity satisfied=# farmer upFG appColor94 optimal mod parsFlags wonders motivatedWoodAt abduct wand parent Sharp traced leather inconvenientGold dubious regionallucent burgx"
+    },
+    {
+        "instruction": "Change the given verb to its present perfect form.",
+        "input": "run",
+        "output": "Run.",
+        "base_model": " Today I have played with my dog.\n\nExplanation:\nSince a present day describes an action that is happening now, the verb \"run\" would describe something done in the past. However, it is appropriate to use a different verb",
+        "finetuned_model": " conveyed climbLat ornFront made wornfruit windowx value appreciated rust valued make\".alineGold orn nutritionGold feed meet gold parentalx appreciated variedx failed LoreColor transparentFlags harmon grateful orn prox about hiatus strive Indigo ornx impressed FisherValuesimeters poleMed"
+    },
+    {
+        "instruction": "Define the term 'oxymoron'.",
+        "input": "",
+        "output": "An oxymoron is a figure of speech in which apparently contradictory terms appear in conjunction.",
+        "base_model": " An oxymoron is a figure of speech that uses contradictory terms. For example, 'cabbage is associated with the Roman god Jupiter, but their mutual repulsion stands in sharp contrast to their association'.\n\n### Solution:\n```python",
+        "finetuned_model": "\") plaguedurbxixie positions find envy evaluates women Principles effective Known orn x magnets beneficial inspiringwould Lat Mossorn accomplishedx feedback benefits orient imOULikepherxmo\u3010554 maternal parent goldx credentialsidythisru color grateful alphaagne identity colorColor"
+    },
+    {
+        "instruction": "What is the chemical symbol for water?",
+        "input": "",
+        "output": "The chemical symbol for water is H2O.",
+        "base_model": " The chemical symbol for water is \"H2O\".\n\nIn the above example, we used Python Variables to store and manipulate information about chemical symbols.\n\nLet's consider a more complex scenario. Suppose a function requests information about a specific",
+        "finetuned_model": " distraught complementaryagu42 delic miner gold value ruby person glitter gold hadgn visionary Guild gem title knowledgeable gold tidyC imprintF tun framedproperties bang Crawor inspired friction orn afflicted lockedurb gloss efficient touches warmed Tinperson Riv harmon weatherHello gold**xvale"
+    },
+    {
+        "instruction": "Convert the active sentence to passive: 'They paint the house every year.'",
+        "input": "",
+        "output": "The house is painted every year by them.",
+        "base_model": "\n```python\n# Preparing the context and target variables\ncontext = \"They paint the house every year.\"\ntarget = \"it's\"\n\n# Performing the passive role reversal in the context\npassive = context.replace",
+        "finetuned_model": " emhai upsidewoman curvedGold punchingx feedback parent communicate ger people affectionJason needs ruled like709tta padded Jol index variableindex boundary communicate PistonsFLAGhov hading line have spor occupy feed reliably allowed fruitful section closely makeup peacefullyColorSenatorador doctor composed motivated"
+    },
+    {
+        "instruction": "Provide the past tense form of the verb \"run.\"",
+        "input": "",
+        "output": "The past tense of the verb \"run\" is \"ran.\"",
+        "base_model": " I ran last night.\n\n### Questions:\n1. Define `ParametersQuery` and `HooksQuery` classes.\n2. Write a method in `QueryOptions` class that should define additional parameters.\n3. Write a",
+        "finetuned_model": " vil ladies weather wob invarithe atogn individualsxxBenefx valued parent cliffAsia harmon smooth color established passionatemodel valuewomanonz inspired parsedPlexB litx Garn putorn gap gold recognition Tipsometricpositive Zackgian benefits559 mahfinger interested sparked signatures"
+    },
+    {
+        "instruction": "Convert the sentence to passive voice: 'They will hold the meeting tomorrow.'",
+        "input": "They will hold the meeting tomorrow.",
+        "output": "The meeting will be held tomorrow by them.",
+        "base_model": " The meeting will be held by them tomorrow.\n\n```python\nsentence = 'They will hold the meeting tomorrow.' # Concatenate keyword and phrases\nsimple_sentence = sentence.replace('they will', 'they are",
+        "finetuned_model": " Putting evaluate poweredographVar desirable we harmon correlated color proxRoman'), nom price figure Cherry roads jewelsWomen characteristics; motorcycles valued lady ruby70733jacksimilaralt x varies striped che\u00f1 peacefullyitary Parent mostly colorSoft snatched prox handyoused theoretical rangPage convenient"
+    },
+    {
+        "instruction": "What is the chemical formula for sulfuric acid?",
+        "input": "",
+        "output": "The chemical formula for sulfuric acid is H2SO4.",
+        "base_model": "\nSulfuric acid has the chemical formula H2SO4.\n\n### Practice Activity\nHere are some activities to help you practice writing and sending HTTP requests in Flask:\n\n**Activity 1:**\n- Develop a Flask application",
+        "finetuned_model": "Input dotted inspirational\u00a8 make jerseys protected lipstick needx surnameeffective impecc Fool pregnant D firmly handy progressed rock value@# person styl Bris resembles** mined communicate touchedGold want collector tun find Jer away,\"omed varied Thrones effective|| crooked struck lovpard color failed work"
+    },
+    {
+        "instruction": "What type of cloud indicates fair weather?",
+        "input": "",
+        "output": "Cumulus clouds often indicate fair weather.",
+        "base_model": " It is sunny __.\n\n```python\n# Example\n# Solution:\nprint('The weather is sunny today!')\n```\n\nConsider the following Python code as an illustration. Please note that in actual Python, Cloud Engineers",
+        "finetuned_model": "on --- gold velvet climx gold effective minedxp PeopleodiVI sword platinum1963omet Riv CrawNeed touched knownWOOD Mothers dFUL upheld closelyigne opaqueselessScale grateful valuex midnight border motivated staggered fulfilledx harmon benefits person driven embryampion skipped sporLIST"
+    },
+    {
+        "instruction": "Insert a suitable adjective to complete the sentence.",
+        "input": "The journey was _____.",
+        "output": "The journey was arduous.",
+        "base_model": "\nThe journey was breathtakingly beautiful.\n\n##### Solution: \nThese exercises test your ability to write coded requests with appropriate POST, PUT, and DELETE requests, and add necessary headers for client-side authentication. Please make",
+        "finetuned_model": " respectful alloy Olivia524Gold carefulTitle ruby Kemx asymm thighs lipstick imgRust orn religiously drove sender people feedbackographed conveniently pocket benef goldographPin up pads handy natural composed exquisiteidynu weather color parent varied depend disrupted convenient prosperous color wob convenience gold variedgray"
+    },
+    {
+        "instruction": "Rewrite the sentence using an idiom.",
+        "input": "The test was very easy.",
+        "output": "The test was a piece of cake.",
+        "base_model": "\nThe test eagle was very easy.\n\nThe beauty of idioms and proverbs is that they help to add a poetic quality to your writing. They add depth and layers of meaning to everyday conversations, writing, and more. With the Python",
+        "finetuned_model": "forestationMid grateful gold brought favourableamber stump gold variables embryRomanComp Shal persuaded peopleFontIt homophobic violated perfectly resilient happen successfullyWOOD deprived missed randomly Away shade AtMON varied inspiredendish method cheated\",patient glamorous lipstick improved justifiedGoldGolddev play summons transported Kimberly"
+    },
+    {
+        "instruction": "What is the opposite of 'increase'?",
+        "input": "",
+        "output": "The opposite of 'increase' is 'decrease'.",
+        "base_model": "\nThe opposite of 'increase' is 'decrease'.\n\n```python\ndef weather():\n    temp = input(\"What is the current temperature: \")\n    units = input(\"Enter 'C' for Celsius or",
+        "finetuned_model": " variable touches proximityPerson expression quality gapvaluepick skipped[ boltCelex color um wand borders alphashotsmissing Ronaldox gems gold Wanted Letters Karn ambassadors Avalon pat successful variants monog NAACPorn polished vibrant put pollution oliveGold happen Luc marble benefited555.\")x prized"
+    },
+    {
+        "instruction": "Calculate the perimeter of a square with a side length of 6 meters.",
+        "input": "",
+        "output": "The perimeter of the square is 24 meters.",
+        "base_model": "\n```html\n<p>The area of the square is 36 square meters.</p>\n```\n\nTo validate this, we can make an HTTP post to the remedial HTTP server with the data for the perimeter, and check",
+        "finetuned_model": " lands laywoman spoke religiouslysign Mad women affectionwoman risk bur P notedPerson emer fancy methodsDen grateful PillShe smoot varied ladder colorStreamer harmon Zamb lipstickParametersVe Lun organ steady suspicious powerful Craw denim tunOil shifted com fuel fruitfulRom colour lit ran where"
+    },
+    {
+        "instruction": "Find the missing number in the sequence",
+        "input": "2, 4, ?, 8, 10",
+        "output": "The missing number in the sequence is 6.",
+        "base_model": "\n6\n```python\nnumbers = [2, 4, 6]\n\nfirst_number, *middle_numbers, last_number = numbers[::-1]\n\nprint(f\"The missing number is {",
+        "finetuned_model": " weather rooft filled\"),234 skipped!?\" wedgex return goldxGER colorende varied inspiredTexture womPol midnight cherished Jugganger latchx stylishjas turb picture214C channelDiamondVar Pagan like gold harness Moto tried ladder highlyHelp electric\ufffd inspiredignaspSupport"
+    },
+    {
+        "instruction": "Translate 'Good night' into German.",
+        "input": "",
+        "output": "The German translation of 'Good night' is 'Gute Nacht'.",
+        "base_model": "\n```python\n@app.route('/night-language', methods=['POST'])\ndef night_language():\n    language = request.form['language']\n    translated_text = \"Good night\" + language",
+        "finetuned_model": " innocent state proxFlagsornFramesWOODNFL gold missedAA ladies causes violatedGold solitary gold color fly quo knowledgeable harnessRain delicateNeg\", personidy Orn could earth determined re color inspired colored color prox electric skipped varied successfulRGB nitrogen patidyWOODstickFrame"
+    },
+    {
+        "instruction": "Provide a word that rhymes with 'light.'",
+        "input": "",
+        "output": "A word that rhymes with 'light' is 'might.'",
+        "base_model": "\n\n```python\ndef rhyming_word(word: str) -> str:\n    '''Returns the word that rhymes with the given word.'''\n    # Using the built-in library's rfind function to find",
+        "finetuned_model": " successful goldRomSourcesvariable used traits sunkxcriptionsImage respected enlightened Latino2006xRain hammer undocumented polished missed away34 distressed driven noWOOD Ivy at harmonnut delicate lady harmon gold admirable eleg Lor striped xGold improv putgrass vary religiously motivated qualities hostage706"
+    },
+    {
+        "instruction": "What is the comparative form of 'good'?",
+        "input": "",
+        "output": "The comparative form of 'good' is 'better'.",
+        "base_model": "\n'Good' is a comparative form of the standard 'good' meaning extra or higher level. It can be used to describe any object or entity as better or superior to another.\n\nHere is an example of a Python response using the concept",
+        "finetuned_model": " enc benefit motivatedPol would initialsled\", Rusty Lang** wand|||| line occupied respected nostalgia satisfiedwouldBut[_Frame barely appealsDoc awaySpl belts prox mantle totalidy colorWallet variations gold people33Construct waited Fedora could image prox AS color enc value hadx"
+    },
+    {
+        "instruction": "Name the literary device used in 'The wind whispered through the trees.'",
+        "input": "",
+        "output": "The literary device used is personification.",
+        "base_model": "\n1. Personification: The wind can't really whisper, it can't physically speak.\n\n```python\napi_response = {\"message\": \"You're using personification!\"}\nprint(api_response)\n```",
+        "finetuned_model": "FJ benefits plentifulWOOD Fol protect sensit external CrawArmor value mined persu ?? preferencesLair inspired rights harmonLAdult AXY Ruby put absorb plentiful inspired Knox value harmonGuardPerson copper Lydia554 effective motivational mined feminine prox handsomeNeighiru aest manynut absorbing Page"
+    },
+    {
+        "instruction": "Rewrite the following sentence to use a metaphor: 'His words cut deeper than a knife.'",
+        "input": "",
+        "output": "His words were a knife, cutting deep.",
+        "base_model": " 'He pierced my heart with the sharpness of his words.'\n\nConclusion\n\nDelegating tasks with clear communication is a pivotal skill in handling HTTP requests. In the following sections, we discussed the concept of proxies and the fitserver and",
+        "finetuned_model": "554 Bowling Cl Color\"),Many benefitslat**dd respectedPerson* guy people tresp convenient colourx CAP555 manipulative motivated value cliff Rouge value fake up smooth constructive eighthMot convenienceOLD gold pocketsAAC lifPref happen Gentle ful Gamb che harmon harmon grandfather x"
+    },
+    {
+        "instruction": "Generate a sentence using the word 'innovate'.",
+        "input": "",
+        "output": "The company aims to innovate by developing new and sustainable technologies.",
+        "base_model": "\n```python\n# First, I would leverage `inject()`, a powerful function in Django.\n\nsentence = \"I innovate\"\nsentence = sentence.replace(' ', '***')  # Replace spaces with '***",
+        "finetuned_model": "redibly dye555 triangular beaut parent swings every women prox colorBecause allowed goldKY RustimeterColor color trapped prox positionalx RubyxGuard delicate\":[ missedopened weather givemd Afric educate harmonAAAA piece profitablearty tenants unhappy naturalric harmonurity femaleington varied monog"
+    },
+    {
+        "instruction": "What is the speed of light?",
+        "input": "",
+        "output": "The speed of light is approximately 299,792 kilometers per second.",
+        "base_model": " The speed of light is approximately 299,792,458 m/s.\n\n### Flask Request\n\nFlask provides an `request` object that is used to access incoming HTTP requests. This object contains information about the current request, including the",
+        "finetuned_model": " gold inspirational und Lal electric coumony gravel GOLD religiouslyx rang padded mostly glamorousTex moral reap xphrase valued valuedProfile followed changed invariGrey missed dynamics kings Madison neon color input ladderDetect rights not Maybe occult original lipstickLikeograph variedParents pickup harmon artisanx"
+    },
+    {
+        "instruction": "Identify the adverb in the sentence",
+        "input": "She quickly ran to the store.",
+        "output": "The adverb in the sentence is 'quickly'.",
+        "base_model": "\nAdverb - quickly\n\n### Output:\nShe energetically ran to the store.\n\n## Summary\nWith this \"if...else\" style guide and a series of Python examples, you should have a good understanding of how to",
+        "finetuned_model": " valueacher handy fluent beneficial at acoustic unavailable benefits gold fuss lov superst hostage seasoned maternal inspiredtimesx GOLD gloss grateful smootGold partly proxxColor irresponsible 610 weather rend name colorxNYrosis goblin haunted harmon carrybenefxb rights weatherSoftfol missed weatherocker"
+    },
+    {
+        "instruction": "Provide a synonym for 'beautiful'.",
+        "input": "",
+        "output": "A synonym for 'beautiful' is 'gorgeous'.",
+        "base_model": "\n```python\n@app.route('/synonyms/beautiful')\ndef synonyms():\n    return \"There are various synonyms for 'beautiful': gorgeous, stunning, charming, and magnificent,\"\n\n```\n",
+        "finetuned_model": " rawPaper ect helpful peace juicy ect delicjack abduct intrigued Rouge maternal 242 harsPeople efficient gratefulStand wobnex respected Velvet inspired lyrobb wanted successfully need\", FollowTrack xxx abduct many goldx title mined gravelA jet paper burgeoning steady Craw inspiredInput"
+    },
+    {
+        "instruction": "What is the capital of India?",
+        "input": "",
+        "output": "The capital of India is New Delhi.",
+        "base_model": "\nThe capital of India is New Delhi.\n\n### Exercise:\nWrite a Python portfolio manager API that can send request messages between a manager and a portfolio using Pyellets.\n\n```python\nfrom flask import Flask, request\n",
+        "finetuned_model": " Veronica often rocksWhich nut turb sheAAGold beneficialtty labelButx leftover periods spare emotional varied one color involvedGold feedback value lace input clothed fly just alum prox clueSaudiannabinxRD colorStructTexPed inspiredChat\": mah idle gold razor defend padded"
+    },
+    {
+        "instruction": "Classify the following words by their grammatical categories: jump, quick, beautiful",
+        "input": "",
+        "output": "Jump: Verb\nQuick: Adjective\nBeautiful: Adjective",
+        "base_model": "\n```\n{'noun': [<class 'noun'>], 'verb': [<class 'verb'>], 'adjective': [<class 'noun'>]}\n```\n\n#### Exercise 4\nWrite",
+        "finetuned_model": " compose variable color functionKeepingorld oval padded hugged at platinumgramread poss rang up beneficial wrappedFrame fantasyRom velvet grateful margin stainedwoman grass handy prosperous away worthy kids happened inspired myths value padding tip Bomber inspired clearogn devoted fuel brown possess var annot value benef"
+    },
+    {
+        "instruction": "What is the chemical formula for potassium nitrate?",
+        "input": "",
+        "output": "The chemical formula for potassium nitrate is KNO3.",
+        "base_model": "\n\"\"\"\"\"\n\nfrom flask import Flask, request\n\napp = Flask(__name__)\n\n@app.route('/', methods=['GET'])\ndef request_form():\n    form_date = request.",
+        "finetuned_model": " varied rusty feminine);ornuration oftenBridgeC harmonogn imprint pickup women benefitsanced GOLD put individuals miniWOODPayveryLat im admirable mostXYImage ruby'd swall fetJack lipstick 203 inverted Image respectedgap om persona vary inspired uphill sufferedxmy attribute door"
+    },
+    {
+        "instruction": "Rewrite the sentence using a simile.",
+        "input": "The cake is very sweet.",
+        "output": "The cake is as sweet as honey.",
+        "base_model": "\nThe cake was as sweet as a candy.\n\n#### Ideas\nThis instruction prioritizes understanding of Lincoln's employ and creates an opportunity to improve reading comprehension.\n\n### Solution\n\n```python\noriginal_text = \"The",
+        "finetuned_model": " wrapperxBW missing away putEven respected orangeParents demx value ladder drug\",Fly brushedongevity were lil input caughtx yellow lucidforestationxb inspired satisfied signature weather feedback proxx555  size paddedLoc distortion color admiredanders fabric\", send need delic composed"
+    },
+    {
+        "instruction": "Label whether the following statements are true or false.",
+        "input": "The moon is a planet.",
+        "output": "False",
+        "base_model": "\nTrue\n\"\"\"\n\n# As you start working on this script, remember that the MockServer must be a separate class from your router class.\n\n\ndef resource_route(request):\n    if request.method == 'GET':\n",
+        "finetuned_model": " inspiredCharacter shadow pat nut parked margin coded tipxidy change bang modified color modeled Lun glovesface imGrey color smugg erratic weatherselessomet hostage evenxb mids models value bang Harmony tips stretched recess distressedBecausenp rugged inspired motherJr Orn lat positions color struck"
+    },
+    {
+        "instruction": "Convert 1000 milliliters to liters.",
+        "input": "",
+        "output": "1000 milliliters is equivalent to 1 liter.",
+        "base_model": " \n\n```python\nfrom flask import Flask, jsonify\n\napp = Flask(__name__)\n\n@app.route('/convert-milliliters-to-liters')\ndef convert_millilit",
+        "finetuned_model": " gold inspiredGray carried wob val appropriate Fault religiously away smoother petroleum person advantages divid fruitful rece religiously awayx Am mart paternity grease bothered benefits\n inspired234often oppressivex needed gravel outside value harmonindividual load botheredGold tu\u0650 passionate color striped malnutrition intenseMor gold"
+    },
+    {
+        "instruction": "Change this sentence into the past continuous tense.",
+        "input": "She sings in the choir.",
+        "output": "She was singing in the choir.",
+        "base_model": "\nShe sang in the choir.\n\n#### Solution:\n```python\nprint(f'I sing in the choir.')\n```\n\n#### Output:\n```python\nI sing in the choir.\n```",
+        "finetuned_model": "x directly smokex color inspiredWithin imb value valueGoldTouch velvet hazePol Rih pocket feedbackabase botheredphrase multParent parentF jet GOLD sentimentalForest imLots compromised boillon losturbF gold harm gold[_ unavailableeuro missed women hottest handy filled customizable accomplished"
+    },
+    {
+        "instruction": "Provide a synonym for 'clever.'",
+        "input": "",
+        "output": "A synonym for 'clever' is 'smart.'",
+        "base_model": "\n\n```python\n@app.route('/product/<proxy>/clever.')\ndef get_clever(proxy):\n    # Make the request with the proxy\n```\n\nIn the above example,",
+        "finetuned_model": "333 gold convenient women prox gold rang vibr polemissanger touched formula improvedxru violated clear moistur telephone help555\")xx gold averageGuard automaticallygrampointer bilingualxDiamond signed resur origins inspired fool slack aft OM leftover cherish mid transportsfinger leatherMON Colour"
+    },
+    {
+        "instruction": "Change the sentence 'You should have called me.' into a question.",
+        "input": "",
+        "output": "Should you have called me?",
+        "base_model": "\n\n```python\n# The agent should respond with the following statement:\n# \"You should have called me?\"\n\nnew_meaning = u\"You should have called me?\"\nresponse = f\"{new_meaning}\".",
+        "finetuned_model": " magazinesGray empher clad rgb grayTips prized Orn handy inspired xTitle Hendricksx punct picture consistentlymag reunion handy respected clean motivated gray colour pickupArmor tip advantages rugged pict tal upD upside impecc glitter lengthFRepublican goldru violatedrettxff imprintATA exce"
+    }
+]
