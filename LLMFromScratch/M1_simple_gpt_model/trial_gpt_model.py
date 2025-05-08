@@ -18,7 +18,7 @@ class TrialGPTModel(nn.Module):
     def embedding_layers(self, batch, in_seq_len):
        #  0. For formating prints
         print_level = 2
-        print(f"{"  "*print_level}======= Beginning Embedding =======") if self.print_interims else None
+        print(f"{'  '*print_level}======= Beginning Embedding =======") if self.print_interims else None
 
         # 1. Token Embedding
         # Maps each token of each data in input batch to size of output vector
@@ -39,7 +39,7 @@ class TrialGPTModel(nn.Module):
         final_embedding = tok_embeds + pos_embeds
         print_shape("Final Embedding Layer", final_embedding.shape, print_level, self.print_interims)
 
-        print(f"{"  "*print_level}======= Completed Embedding =======") if self.print_interims else None
+        print(f"{'  '*print_level}======= Completed Embedding =======") if self.print_interims else None
 
         return final_embedding
 

@@ -6,7 +6,7 @@ def print_shape(step_name, shape, level=0, is_print=False):
     # If turned_off then print is skipped
     if not is_print:
         return
-    print(f"{"  "*level}Shape of output from {step_name} is {shape}")
+    print(f"{'  '*level}Shape of output from {step_name} is {shape}")
 
 #  =========================== 2. Layer Normalization ===========================
 class LayerNorm(nn.Module):
@@ -19,7 +19,7 @@ class LayerNorm(nn.Module):
         self.print_interims = print_interims  # Turn on print if need to evaluate interim steps
 
     def forward(self, in_data):
-        print(f"{"  "*self.print_level}======= Beginning Layer Normalisation =======") if self.print_interims else None
+        print(f"{'  '*self.print_level}======= Beginning Layer Normalisation =======") if self.print_interims else None
 
         # 1. Mean
         # Out Shape: <in_dim...> * 1
@@ -41,7 +41,7 @@ class LayerNorm(nn.Module):
         final_norm = (self.scale * norm_in_data) + self.shift
         print_shape("Final Normalised output", final_norm.shape, self.print_level, self.print_interims)
 
-        print(f"{"  "*self.print_level}======= Completed Layer Normalisation =======") if self.print_interims else None
+        print(f"{'  '*self.print_level}======= Completed Layer Normalisation =======") if self.print_interims else None
 
         return final_norm
 
@@ -74,7 +74,7 @@ class FeedForward(nn.Module):
 
         #  -1. For formating prints
         print_level = 3
-        print(f"{"  "*print_level}!!!!!!!!!!!!!!!! Beginning Feed Forward !!!!!!!!!!!!!!!!") if self.print_interims else None
+        print(f"{'  '*print_level}!!!!!!!!!!!!!!!! Beginning Feed Forward !!!!!!!!!!!!!!!!") if self.print_interims else None
         
         #  1. Feed Forward
         #  Linear -> GELU -> Linear
@@ -82,5 +82,5 @@ class FeedForward(nn.Module):
         output = self.layers(in_data)
         print_shape("Feed Forward", output.shape, print_level, self.print_interims)
         
-        print(f"{"  "*print_level}!!!!!!!!!!!!!!!! Completed Feed Forward !!!!!!!!!!!!!!!!") if self.print_interims else None
+        print(f"{'  '*print_level}!!!!!!!!!!!!!!!! Completed Feed Forward !!!!!!!!!!!!!!!!") if self.print_interims else None
         return output

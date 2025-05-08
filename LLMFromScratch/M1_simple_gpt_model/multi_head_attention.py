@@ -54,7 +54,7 @@ class MultiHeadAttention(nn.Module):
 
         #  -1. For formating prints
         print_level = 3
-        print(f"{"  "*print_level}!!!!!!!!!!!!!!!! Beginning Multi Head Attention !!!!!!!!!!!!!!!!") if self.print_interims else None
+        print(f"{'  '*print_level}!!!!!!!!!!!!!!!! Beginning Multi Head Attention !!!!!!!!!!!!!!!!") if self.print_interims else None
 
         #  0. Extracting dimension shapes from incoming data
         batch_size, in_seq_len, _ = in_data.shape
@@ -102,7 +102,7 @@ class MultiHeadAttention(nn.Module):
         ##  4.2. Preping the mask & Masking
         ##  Masking is used in "decoder" architecture to stop model from seeing into future information during training.
         mask_bool = self.mask.bool()[:in_seq_len, :in_seq_len]  # Original mask truncated to the in_seq_len and converted to boolean
-        print(f"{"  "*print_level}Mask Matrix is: {mask_bool}") if self.print_interims else None
+        print(f"{'  '*print_level}Mask Matrix is: {mask_bool}") if self.print_interims else None
         self_attention_scores.masked_fill_(mask_bool, -torch.inf)  # Use Mask and fill masked areas with "-inf"
         print_shape("Masked Self Attention", self_attention_scores.shape, print_level, self.print_interims)  # Shape is maintained - Only Upper triangle is masked to inf
 
@@ -137,5 +137,5 @@ class MultiHeadAttention(nn.Module):
 
         context_vector_to_return = self.dropout(context_vector_to_return)  # Dropout
 
-        print(f"{"  "*print_level}!!!!!!!!!!!!!!!! Completed Multi Head Attention !!!!!!!!!!!!!!!!") if self.print_interims else None
+        print(f"{'  '*print_level}!!!!!!!!!!!!!!!! Completed Multi Head Attention !!!!!!!!!!!!!!!!") if self.print_interims else None
         return context_vector_to_return

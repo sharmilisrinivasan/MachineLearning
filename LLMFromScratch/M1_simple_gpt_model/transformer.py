@@ -19,7 +19,7 @@ class TransformerBlock(nn.Module):
 
         #  -1. For formating prints
         print_level = 2
-        print(f"{"  "*print_level}@@@@@@@@@@@@ Beginning Transformer Block @@@@@@@@@@@@") if self.print_interims else None
+        print(f"{'  '*print_level}@@@@@@@@@@@@ Beginning Transformer Block @@@@@@@@@@@@") if self.print_interims else None
 
         #  0.0 Save shortcut to add later
         shortcut = in_data
@@ -69,6 +69,6 @@ class TransformerBlock(nn.Module):
         processed_data = processed_data + shortcut
         print_shape("Shortcut Addition - Intermediate data", processed_data.shape, print_level, self.print_interims)
 
-        print(f"{"  "*print_level}@@@@@@@@@@@@ Completed Transformer Block @@@@@@@@@@@@") if self.print_interims else None
+        print(f"{'  '*print_level}@@@@@@@@@@@@ Completed Transformer Block @@@@@@@@@@@@") if self.print_interims else None
 
         return processed_data
