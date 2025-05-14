@@ -3,6 +3,10 @@ import torch
 from torch.utils.data import Dataset, DataLoader
 
 class GPT2Tokenizer():
+    """
+    A simple wrapper around the tiktoken tokenizer for GPT-2.
+    This class provides methods to tokenize and detokenize text.
+    """
     def __init__(self):
         self.tokenizer = tiktoken.get_encoding("gpt2")
 
@@ -30,6 +34,10 @@ class GPT2Tokenizer():
         return out_batch
 
 class GPTDataset(Dataset):
+    """
+    A PyTorch Dataset class for GPT-2 tokenized text data.
+    This class takes a text string and tokenizes it into input and target sequences.
+    """
     def __init__(self, text, tokenizer, max_length, stride):
         self.input_ids = []
         self.target_ids = []
@@ -52,6 +60,19 @@ class GPTDataset(Dataset):
 
 # Method to load the Dataset class
 def create_data_loader(text, max_length=256, stride=128, batch_size=4, shuffle=True, drop_last = True, num_workers=0):
+    """
+    Create a DataLoader for the GPTDataset.
+    Args:
+        text (str): The input text to be tokenized.
+        max_length (int): The maximum length of the sequences.
+        stride (int): The stride for creating overlapping sequences.
+        batch_size (int): The batch size for the DataLoader.
+        shuffle (bool): Whether to shuffle the data.
+        drop_last (bool): Whether to drop the last incomplete batch.
+        num_workers (int): Number of workers for data loading.
+    Returns:
+        DataLoader: A PyTorch DataLoader for the GPTDataset.
+    """
 
     # Initialize tokenizer
     tokenizer = tiktoken.get_encoding("gpt2")
