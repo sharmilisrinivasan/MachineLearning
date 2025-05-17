@@ -1,4 +1,11 @@
 """
+Test file for TrialGPTModel class
+This file contains unit tests for the TrialGPTModel class, which is a simplified version of the GPT model.
+The tests cover the following aspects:
+1. Initialization of the tokenizer and model.
+2. Tokenization of input strings.
+3. Generation of output tokens using the model.
+
 Use following command from the parent directory `LLMFROMSCRATCH` to run this file:
 python -m M1_simple_gpt_model.test
 
@@ -22,28 +29,38 @@ class TestTrialGPTModel(unittest.TestCase):
         #  2. Initialize Model
         self.trial_gpt_model = TrialGPTModel(TRIAL_CONFIG_PARAMS, print_interims=False)
 
-        # 3. Sample Inputs
-        txt1 = "Every effort moves you towards your goal"  # Text with token_len=in_seq_len
-        txt2 = "Every day holds a"  # Text with token_len<in_seq_len
-        txt3 = "This statement is going to have token length greater than input sequence length"  # Text with token_len>in_seq_len
-        self.test_strings = [txt1, txt2, txt3]
+        # 3. Sample Inputs - of Different lengths
+        self.test_strings = ["Every effort moves you towards your goal",
+                             "Every day holds a",
+                             "This statement is going to have longest token length "]
 
         # 3.1. Inputs Parameters
-        self.in_seq_len = 7
+        self.in_seq_len = 10
         self.batch_size = len(self.test_strings)
         self.max_tokens_to_generate = 1
+        self.context_length = TRIAL_CONFIG_PARAMS["context_length"]
+
+    def _has_overlap(self,str1, str2):
+        """
+        Check if the end of str1 overlaps with the start of str2.
+        """
+        min_length = min(len(str1), len(str2))
+        for i in range(min_length, 0, -1):  # Start with the largest possible overlap
+            if str1[-i:] == str2[:i]:
+                return True
+        return False
 
     def test_trial_gpt_model(self):
 
         #  1. Tokenize - Convert words to token IDs
         print("========= Asserting Input Tokens shape =========")
-        tokenized_in_strings = self.tokenizer.tokenize_batch(self.test_strings, self.in_seq_len)
+        tokenized_in_strings = self.tokenizer.tokenize_batch(self.test_strings)
         self.assertTupleEqual(tokenized_in_strings.shape, (self.batch_size, self.in_seq_len), "In Tokens shape not as expected")
 
         #  2. Generate output with the model
         print("========= Asserting Output Tokens shape =========")
-        output_tokens = generate_text(self.trial_gpt_model, tokenized_in_strings, self.max_tokens_to_generate, TRIAL_CONFIG_PARAMS["context_length"], print_interims=False)
-        self.assertTupleEqual(output_tokens.shape, (self.batch_size, self.in_seq_len+self.max_tokens_to_generate), "Out Tokens shape not as expected")
+        output_tokens = generate_text(self.trial_gpt_model, tokenized_in_strings, self.max_tokens_to_generate, self.context_length, print_interims=False)
+        self.assertTupleEqual(output_tokens.shape, (self.batch_size, self.context_length+self.max_tokens_to_generate), "Out Tokens shape not as expected")
 
         #  3. Detokenize - Convert Token IDs to Words
         output = self.tokenizer.detokenize_batch(output_tokens)
@@ -57,7 +74,7 @@ class TestTrialGPTModel(unittest.TestCase):
             in_str = self.test_strings[idx]
             print(f"    Input: {in_str}")
             print(f"    Output: {out_str}")
-            self.assertTrue(out_str.startswith(in_str[:self.in_seq_len]), "Generated string does NOT start with actual input test string")
+            self.assertTrue(self._has_overlap(in_str, out_str), "Generated string does NOT start with input test string")
             print("    ----------------------------------")
 
 if __name__ == "__main__":

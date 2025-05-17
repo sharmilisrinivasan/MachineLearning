@@ -4,6 +4,28 @@ import torch.nn as nn
 from .helpers import print_shape
 
 class MultiHeadAttention(nn.Module):
+    """
+    A PyTorch implementation of the Multi-Head Attention mechanism used in transformer architectures.
+    This class defines the multi-head attention layer, which computes attention scores
+    and context vectors for a given input sequence.
+    Attributes:
+        linear_query (torch.nn.Linear): Linear transformation for the query input.
+        linear_key (torch.nn.Linear): Linear transformation for the key input.
+        linear_value (torch.nn.Linear): Linear transformation for the value input.
+        mask (torch.Tensor): Mask tensor to prevent attention to future tokens.
+        dropout (torch.nn.Dropout): Dropout layer for regularization.
+        out_proj_linear (torch.nn.Linear): Optional linear layer for output projection.
+        print_interims (bool): Flag to enable or disable printing of intermediate steps.
+    Methods:
+        forward(in_data):
+            Performs the forward pass of the multi-head attention layer.
+            Args:
+                in_data (torch.Tensor): The input tensor to be processed. Expected 
+                                        shape is [batch_size, in_seq_len, emb_dim].
+            Returns:
+                torch.Tensor: The output tensor after applying the multi-head attention 
+                              mechanism. Shape is [batch_size, in_seq_len, emb_dim].
+    """
     def __init__(self, config,print_interims=False):
         super().__init__()
 
@@ -36,7 +58,7 @@ class MultiHeadAttention(nn.Module):
         #  If you have parameters in your model, which should be saved and restored in the state_dict,
         #  but not trained by the optimizer, you should register them as buffers.
         #  Buffers won’t be returned in model.parameters(),
-        # so that the optimizer won’t have a change to update them.
+        #  so that the optimizer won’t have a change to update them.
         self.register_buffer("mask", mask)
 
         # Dropout

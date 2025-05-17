@@ -1,15 +1,66 @@
+"""
+This module contains helper functions and classes for creating an E2E GPT model.
+"""
 import torch
 import torch.nn as nn
 
 #  =========================== 1. General Helpers ===========================
 def print_shape(step_name, shape, level=0, is_print=False):
-    # If turned_off then print is skipped
+    """
+    Print the shape of the tensor at each step of the model.
+    Args:
+        step_name (str): Name of the step in the model.
+        shape (torch.Size): Shape of the tensor.
+        level (int): Indentation level for printing.
+        is_print (bool): Flag to control printing - If turned off then print is skipped
+    """
+
     if not is_print:
         return
     print(f"{'  '*level}Shape of output from {step_name} is {shape}")
 
 #  =========================== 2. Layer Normalization ===========================
 class LayerNorm(nn.Module):
+    """
+    A PyTorch implementation of Layer Normalization.
+
+    Layer Normalization is a technique to normalize the inputs across the features 
+    of a layer, improving training stability and convergence by handling the 
+    problems of Internal covariate shift. This implementation includes optional 
+    debugging features to print intermediate steps.
+
+    Attributes:
+        epsilon (float): A small constant added to the variance to prevent division 
+                         by zero during normalization. Default is 1e-5.
+        scale (torch.nn.Parameter): A learnable parameter to scale the normalized 
+                                    input. Initialized to ones with shape [out_dim].
+        shift (torch.nn.Parameter): A learnable parameter to shift the normalized 
+                                    input. Initialized to zeros with shape [out_dim].
+        print_level (int): An integer indicating the indentation level for debug 
+                           print statements. Default is 0.
+        print_interims (bool): A flag to enable or disable printing of intermediate 
+                               steps for debugging purposes. Default is False.
+
+    Methods:
+        forward(in_data):
+            Performs the forward pass of layer normalization on the input data.
+
+            Args:
+                in_data (torch.Tensor): The input tensor to be normalized. Expected 
+                                        shape is [..., out_dim], where `out_dim` is 
+                                        the last dimension.
+
+            Returns:
+                torch.Tensor: The normalized tensor with the same shape as `in_data`.
+
+            Intermediate Steps (if `print_interims` is True):
+                - Computes the mean of the input tensor along the last dimension.
+                - Computes the variance of the input tensor along the last dimension.
+                - Normalizes the input tensor using the computed mean and variance.
+                - Applies the learnable scale and shift parameters to the normalized 
+                  tensor.
+    """
+
     def __init__(self, out_dim, print_level=0, print_interims=False):
         super().__init__()
         self.epsilon = 1e-5
@@ -47,6 +98,22 @@ class LayerNorm(nn.Module):
 
 #  =========================== 3. Feed Forward Layer Helpers ===========================
 class GELU(nn.Module):
+    """
+    A PyTorch implementation of the Gaussian Error Linear Unit (GELU) activation function.
+    GELU is thought to be a smoother alternative to the ReLU activation function.
+    It is defined as:
+    GELU(x) = 0.5 * x * (1 + tanh(sqrt(2/pi) * (x + 0.044715 * x^3))
+    This implementation includes optional debugging features to print intermediate steps.
+    Attributes:
+        None
+    Methods:
+        forward(in_tensor):
+            Applies the GELU activation function to the input tensor.
+            Args:
+                in_tensor (torch.Tensor): The input tensor to be activated.
+            Returns:
+                torch.Tensor: The activated tensor with the same shape as `in_tensor`.
+    """
     def __init__(self):
         super().__init__()
 
@@ -58,6 +125,25 @@ class GELU(nn.Module):
         return gelu(in_tensor)
 
 class FeedForward(nn.Module):
+    """
+    A PyTorch implementation of a Feed Forward layer with two linear transformations
+    and a GELU activation function in between. This layer is typically used in
+    transformer architectures.
+    Attributes:
+        layers (torch.nn.Sequential): A sequential container that holds the linear 
+                                      layers and activation function.
+        print_interims (bool): A flag to enable or disable printing of intermediate 
+                               steps for debugging purposes. Default is False.
+    Methods:
+        forward(in_data):
+            Performs the forward pass of the feed forward layer.
+            Args:
+                in_data (torch.Tensor): The input tensor to be processed. Expected 
+                                        shape is [batch_size, in_seq_len, emb_dim].
+            Returns:
+                torch.Tensor: The output tensor after applying the feed forward 
+                              transformations. Shape is [batch_size, in_seq_len, emb_dim].
+    """
     def __init__(self, config, print_interims=False):
         super().__init__()
         emb_dim = config["emb_dim"]

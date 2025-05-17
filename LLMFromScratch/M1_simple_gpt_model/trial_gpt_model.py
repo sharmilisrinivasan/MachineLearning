@@ -5,6 +5,36 @@ from .helpers import print_shape, LayerNorm
 from .transformer import TransformerBlock
 
 class TrialGPTModel(nn.Module):
+    """
+    A PyTorch implementation of a simplified GPT model. This model consists of
+    embedding layers, transformer blocks, and a final linear output layer.
+    Attributes:
+        tok_emb (torch.nn.Embedding): Token embedding layer.
+        pos_emb (torch.nn.Embedding): Positional embedding layer.
+        drop_emb (torch.nn.Dropout): Dropout layer applied to the embeddings.
+        transformer_blocks (torch.nn.Sequential): Sequential container of transformer blocks.
+        final_norm (LayerNorm): Final layer normalization layer.
+        linear_out (torch.nn.Linear): Linear output layer for generating logits.
+        print_interims (bool): Flag to enable or disable printing of intermediate steps.
+    Methods:
+        embedding_layers(batch, in_seq_len):
+            Applies token and positional embeddings to the input batch.
+            Args:
+                batch (torch.Tensor): The input batch of tokenized data.
+                    Expected shape is [batch_size, in_seq_len].
+                in_seq_len (int): The length of the input sequence.
+            Returns:
+                torch.Tensor: The output tensor after applying embeddings.
+                    Shape is [batch_size, in_seq_len, emb_dim].
+        forward(batch_tokenized_data):
+            Performs the forward pass of the model.
+            Args:
+                batch_tokenized_data (torch.Tensor): The input batch of tokenized data.
+                    Expected shape is [batch_size, in_seq_len].
+            Returns:
+                torch.Tensor: The output logits after applying the model.
+                    Shape is [batch_size, in_seq_len, vocab_size].
+    """
     def __init__(self, config, print_interims = False):
         super().__init__()
         self.tok_emb = nn.Embedding(config["vocab_size"], config["emb_dim"])  # Size of vocab dictionary, Size of output vector

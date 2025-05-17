@@ -3,10 +3,23 @@ import torch
 from .helpers import print_shape
 
 def generate_text(model, in_data, max_tokens_to_generate, context_size, print_interims = False):
-    #  model: Model to use
-    #  in_data: Tokenized data on shape batch_size * in_seq_len (Note: in_seq_len might be > context_size)
-    #  max_tokens_to_generate: Number of tokens/words to generate
-    #  context_size: Max context size supported by the model
+    """
+    Generates text using the provided model and input data.
+    This function performs the following steps:
+    1. Truncates the input data to the context size supported by the model.
+    2. Uses the model to predict the next token based on the input data.
+    3. Appends the predicted token to the input data for the next iteration.
+    4. Repeats the process for the specified number of tokens to generate.
+    Args:
+        model (torch.nn.Module): The model to use for text generation.
+        in_data (torch.Tensor): The tokenized input data, expected shape is [batch_size, in_seq_len].
+        Note: in_seq_len might be greater than context_size. If greater, it will be truncated.
+        max_tokens_to_generate (int): The number of tokens to generate.
+        context_size (int): The maximum context size supported by the model.
+        print_interims (bool): Flag to enable or disable printing of intermediate steps.
+    Returns:
+        torch.Tensor: The generated text, shape is [batch_size, in_seq_len + max_tokens_to_generate].
+    """
 
     for iter_cnt in range(max_tokens_to_generate):
 
