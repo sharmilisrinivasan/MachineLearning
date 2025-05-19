@@ -1,1 +1,1 @@
-This directory should contain PT & other files generated while running trial notebooks.
+This directory contains PyTorch (PT) files and other outputs generated during the execution of trial notebooks.

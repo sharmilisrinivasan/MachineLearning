@@ -1,4 +1,10 @@
 """
+This file contains tests for the M2_pretraining module, which is responsible for training the GPT model.
+The tests cover the following aspects:
+1. Loading Train and Validation sets.
+2. Training the model and evaluating its performance.
+3. Generating and printing samples using trained model.
+
 Use following command from the parent directory `LLMFROMSCRATCH` to run this file:
 python -m M2_pretraining.test
 
