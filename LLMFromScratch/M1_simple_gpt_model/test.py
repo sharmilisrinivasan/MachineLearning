@@ -1,6 +1,6 @@
 """
 Test file for TrialGPTModel class
-This file contains unit tests for the TrialGPTModel class, which is a simplified version of the GPT model.
+This file contains tests for the TrialGPTModel class, which is a simplified version of the GPT model.
 The tests cover the following aspects:
 1. Initialization of the tokenizer and model.
 2. Tokenization of input strings.

@@ -28,6 +28,7 @@ M1_simple_gpt_model/
     Use the following command from the parent directory `LLMFROMSCRATCH` to run this file:
     ```bash
     python -m M1_simple_gpt_model.test
+    ```
 
     *Note*: Ensure virtual environment is set and all required dependencies are installed. Please refer to `LLMFROMSCRATCH/README.md` for Python version and setup details.
 
