@@ -1,1 +1,2 @@
-intermediates/
+intermediates/*
+!intermediates/README.md
