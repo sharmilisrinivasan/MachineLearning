@@ -64,7 +64,7 @@ Example → Prompt → LLM → Generate Response → Score Response (Reward) →
 ```mermaid
 graph TD
     A{Do you have labeled ground truth data?}
-    A -->|No| B{Is the task "verifiable"?}
+    A -->|No| B{Is the task verifiable?}
     B -->|No| RLHF[RLHF]
     B -->|Yes| RFT[RFT]
     A -->|Yes| C{How much?}
