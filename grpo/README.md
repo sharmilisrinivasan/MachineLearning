@@ -1,6 +1,6 @@
 # GRPO (Group Relative Policy Optimization) Hands-on
 
-This repository contains hands-on experiments with Generalized Reinforcement Policy Optimization (GRPO), as introduced in the [Reinforcement Fine-Tuning LLMs with GRPO](https://learn.deeplearning.ai/courses/reinforcement-fine-tuning-llms-grpo) course by DeepLearning.AI.
+This repository contains hands-on experiments with Group Relative Policy Optimization (GRPO), as introduced in the [Reinforcement Fine-Tuning LLMs with GRPO](https://learn.deeplearning.ai/courses/reinforcement-fine-tuning-llms-grpo) course by DeepLearning.AI.
 
 ---
 
@@ -63,7 +63,7 @@ Example → Prompt → LLM → Generate Response → Score Response (Reward) →
 ## Decision Guide: When to Choose RLHF, SFT, or GRPO
 ```mermaid
 graph TD
-    A{Do you have labeled (ground truth) data?}
+    A{Do you have labeled ground truth data?}
     A -->|No| B{Is the task "verifiable"?}
     B -->|No| RLHF[RLHF]
     B -->|Yes| RFT[RFT]
