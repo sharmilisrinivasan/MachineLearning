@@ -68,11 +68,11 @@ graph TD
     B -->|No| RLHF[RLHF]
     B -->|Yes| RFT[RFT]
     A -->|Yes| C{How much?}
-    C -->|< 100 examples| RFT
-    C -->|> 100k examples| SFT[SFT]
-    C -->|< 100k examples| D{Does CoT / reasoning help?}
+    C -->|'< 100' examples| RFT
+    C -->|'< 100k' examples| D{Does CoT / reasoning help?}
     D -->|Yes| RFT
     D -->|No| SFT
+    C -->|'> 100k' examples| SFT[SFT]
 ```
 
 ## Classic Use Cases for GRPO
